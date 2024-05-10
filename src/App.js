@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import HomePage from "./components/User/HomePage/HomePage";
 import { Route, Routes } from "react-router-dom";
-import { ToastContainer } from "react-toastify";
+// import { ToastContainer } from "react-toastify";
 import Header from "./components/User/Header/Header";
 import User from "./components/User/User";
 import Login from "./components/User/Login/Login";
@@ -21,7 +20,7 @@ import Thanhtoandathang from "./components/User/Cart/Thanhtoandathang";
 function App() {
   return (
     <div className="app-container">
-      <ToastContainer
+      {/* <ToastContainer
         position="top-right"
         autoClose={2000}
         hideProgressBar={false}
@@ -33,8 +32,7 @@ function App() {
         pauseOnHover
         theme="light"
       />
-      {/* Same as */}
-      <ToastContainer />
+      <ToastContainer /> */}
       <Routes>
         <Route path="/" element={<User />}>
           <Route index element={<HomePage />} />

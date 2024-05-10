@@ -2,9 +2,11 @@ import React from "react";
 import "./Thanhtoandathang.css";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import Example from "./modal";
 function Thanhtoandathang() {
-  const notify = () => toast("Wow so easy !");
+ 
   return (
+    
     <div className="bg-orderpay">
       <header className="header-logo-orderpay container">
         <div className="orderpay-logo-title">
@@ -207,8 +209,8 @@ function Thanhtoandathang() {
                     Thông tin đặt hàng cũng sẽ được dùng để tạo tài khoản mới
                     ngay sau khi đặt hàng thành công.
                   </div>
-                  <button onClick={notify}>Nhập thông tin đặt hàng</button>
-                  <ToastContainer />
+                  <Example/>
+                  
                 </div>
               </div>
               <h6 className="lable-section-orderpay">
@@ -357,8 +359,7 @@ function Thanhtoandathang() {
                   </ul>
                 </div>
                 <div className="dat-mua">
-                  <button onClick={notify}>ĐẶT MUA</button>
-                  <ToastContainer />
+                  <button >ĐẶT MUA</button>
                 </div>
               </div>
             </div>

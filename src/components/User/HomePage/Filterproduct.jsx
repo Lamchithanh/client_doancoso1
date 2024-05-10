@@ -1,0 +1,534 @@
+import React from "react";
+import "./Filterproduct.css";
+import {Link} from "react-router-dom"
+const Filterproduct = () => {
+  return (
+    <div>
+     
+      <main className="select-col">
+        <section>
+          <ul className="made-in-country">
+            <label style={{ fontSize: "20px", fontWeight: 600 }}>
+              Sản phẩm
+            </label>
+            <Link to="/">
+              <li>Mỹ</li>
+            </Link>
+            <Link to="/">
+              <li>Nhật</li>
+            </Link>
+            <Link to="/">
+              <li>Đức</li>
+            </Link>
+            <Link to="/">
+              <li>Anh</li>
+            </Link>
+            <Link to="/">
+              <li>Giao hàng</li>
+            </Link>
+            <Link to="/">
+              <li>Hàng cao cấp</li>
+            </Link>
+            <Link to="/">
+              <li>Tất cả</li>
+            </Link>
+          </ul>
+        </section>
+        <section>
+          <ul className="title-product">
+            <li>Kết quả tìm kiếm cho</li>
+            <li className="title-search-product">"Đồng hồ"</li>
+          </ul>
+          <ul className="list-card-result">
+            <li>Danh sách sản phẩm</li>
+            <li className="title-search-product">"đồng hồ"</li>
+            <li>chính hãng từ </li>
+            <li className="title-product-made-in"> Mỹ</li>
+          </ul>
+          <div className="list-search-product">
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="card-product card-product-watch">
+              <div className="card-product-img">
+                <Link to="/CardPay">
+                  <img
+                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                    className="product-card__img lazyloaded"
+                  />
+                </Link>
+              </div>
+              <div className="card-product-title">
+                <Link
+                  to="/CardPay"
+                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                  className="product-deal-action-card__title-inner"
+                >
+                  Tissot T-ClassicTradition Chronograph Men's Watch
+                  T0636171103700
+                </Link>
+              </div>
+              <div className="price-product-icon">
+                <ul className="price-product">
+                  <li className="price-product-values">
+                    401,502,295 <sup>đ</sup>
+                  </li>
+                  <li className="price-product-default" />
+                </ul>
+                <ul className="item-icon">
+                  <li className="add-cart">
+                    <i className="icofont-cart-alt" />
+                  </li>
+                  <li className="add-like">
+                    <i className="icofont-heart-alt" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <hr />
+      <section className="info-depict">
+        <div>
+          <p>
+            Với
+            <span className="totail-quantity-product select-county">
+              65,642
+            </span>{" "}
+            sản phẩm
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            được tìm thấy tại <span className="title-product-made-in select-county">Mỹ</span>{" "}
+            , bạn sẽ có cơ hội mua sắm và sở hữu món đồ như ý phù hợp nhu cầu
+            cũng như túi tiền. Để tìm hiểu thêm về
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            hãy cùng theo dõi thông tin bên dưới.
+          </p>
+          <p>
+            Chọn Chọn
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            hàng hiệu chính hãng, chất lượng tại FADO hàng hiệu chính hãng, chất
+            lượng tại FADO
+          </p>
+          <p>
+            Là sàn TMĐT xuyên biên giới hàng đầu, FADO cam kết mang đến sản phẩm
+            chính hãng, đảm bảo chất lượng. Tất cả
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            đều có nguồn gốc xuất xứ rõ ràng đi kèm thông tin chi tiết. Khi chọn
+            mua, bạn có thể tham khảo và tìm được sản phẩm như ý.
+          </p>
+          <p>
+            Bên cạnh đó, sản phẩm tại đây còn có nhiều chủng loại với mức giá
+            khác nhau. Tùy theo nhu cầu, sở thích, ngân sách mà mỗi người sẽ có
+            sự lựa chọn phù hợp.
+          </p>
+          <p>
+            Làm sao để chọn
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            phù hợp, đảm bảo chất lượng?
+          </p>
+          <p>
+            Rất nhiều sản phẩm
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            được tìm thấy từ <span className="title-product-made-in select-county">Mỹ</span>{" "}
+            dành cho bạn, làm sao để chọn được món đồ phù hợp ưng ý vừa đảm bảo
+            chất lượng vừa có giá cả phù hợp. Dưới đây là những bí quyết đơn
+            giản mà bạn có thể bỏ túi khi mua sắm sản phẩm này
+          </p>
+          <p>Xem kỹ thông tin sản phẩm</p>
+          <p>
+            Trước khi chọn mua, bạn cần phải xem kỹ thông tin của
+            <span className="title-search-product name-search">quần áo nữ</span>
+            . Tất cả thông tin về sản phẩm sẽ được thể hiện đầy đủ, minh bạch và
+            rõ ràng trên website. Như vậy, bạn mới có thể dễ dàng đưa ra quyết
+            định và đưa ra lựa chọn thích hợp.
+          </p>
+          <p>Chú ý mức độ độ đánh giá của sản phẩm</p>
+          <p>
+            Dưới tên sản phẩm hiển thị đều có phần đánh giá của người mua. Dựa
+            vào đó bạn có thể dễ dàng chọn sản phẩm chất lượng cho bản thân.{" "}
+            <br />
+            - Những sản phẩm có số người mua cao và được đánh giá tốt (4-5 sao)
+            của người dùng bạn nên ưu tiên chọn mua. <br />- Những sản phẩm có
+            đánh giá từ 3 sao trở xuống và rất ít người mua thì cần phải cân
+            nhắc và tìm hiểu kỹ trước khi lựa chọn để dễ dàng sở hữu được món đồ
+            ưng ý.
+          </p>
+          <p>Tham khảo mức giá từ các nhà cung cấp</p>
+          <p>
+            Mức giá của quần áo nữ được hiển thị bên dưới tên sản phẩm, giá bạn
+            thấy sẽ bằng giá bạn trả khi mua hàng, giá sản phẩm luôn cập nhật
+            mới chuẩn xác theo thời gian. Lúc này, bạn có thể quan sát và tìm ra
+            sản phẩm phù hợp để cho vào giỏ hàng. Ngoài ra bạn cũng lưu ý giá ưu
+            đãi, FADO luôn luôn cập nhật các chương trình ưu đãi hấp dẫn nhằm
+            mang đến cho khách hàng trải nghiệm mua sắm tốt nhất với mức giá
+            phải chăng.
+          </p>
+          <p>
+            Sản phẩm
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            có giá bao nhiêu?
+          </p>
+          <p>
+            Có lẽ khi chọn mua bất kỳ sản phẩm nào, mọi người sẽ băn khoăn về
+            giá cả. Bạn có thể tham khảo mức giá của
+            <span className="totail-quantity-product select-county">
+              65,642
+            </span>{" "}
+            sản phẩm này và cân nhắc lựa chọn. Đồng thời, hãy click vào bên
+            trong để xem xét thêm thông tin chi tiết cũng như mức giá do các nhà
+            bán khác cung cấp.
+          </p>
+          <p>
+            Góc phải bên cạnh thông tin là phần hiển thị các nhà cung cấp khác
+            với mức giá khác nhau và có sự chênh lệch. Tại đây, bạn có thể so
+            sánh giá bán của các đơn vị bán này. Từ đó, cân nhắc và quyết định
+            chọn mua sản phẩm chất lượng hợp với túi tiền.
+          </p>
+          <p>
+            Mua{" "}
+            <span className="title-search-product name-search">quần áo nữ</span>{" "}
+            ở đâu đảm bảo chính hãng, giá tốt?
+          </p>
+          <p>
+            Như mọi người đã biết, tình trạng hàng giả, hàng nhái, hàng kém chất
+            lượng trà trộn vào thị trường ngày càng phổ biến với chiêu trò tinh
+            vi. Rất nhiều nơi vì một chút lợi nhuận mà bỏ qua lợi ích của khách
+            hàng. Chính điều này đã khiến, việc tìm kiếm nơi bán hàng hiệu chính
+            hãng trở nên khó khăn hơn. Vậy khi có nhu cầu, chúng ta nên mua sản
+            phẩm
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            ở đâu đảm bảo chất lượng, chính hãng với giá tốt?
+          </p>
+          <p>
+            Sàn TMĐT xuyên biên giới <b>Fado.vn</b> với hàng tỷ sản phẩm từ
+            <span className="title-product-made-in select-county">Mỹ</span>, Nhật, Anh, Đức,
+            Úc,...sẽ giúp bạn chọn được
+            <span className="title-search-product name-search">
+              quần áo nữ
+            </span>{" "}
+            như ý. Không chỉ đảm bảo chất lượng, cam kết nguồn gốc, FADO còn
+            mang đến rất nhiều chương trình hấp dẫn dành cho khách hàng; đặc
+            biệt là các ngày hội mua sắm lớn như: Primeday, Black Friday, Cyber
+            Monday,... Khi mua vào thời điểm này, khách hàng sẽ nhận được nhiều
+            voucher khuyến mãi cùng nhiều ưu đãi bất ngờ. Đi kèm với đó là
+            chương trình tích điểm đổi mã giảm giá.
+          </p>
+          <p>
+            Bên cạnh đó, khách hàng khi mua sắm tại FADO còn có cơ hội là thành
+            viên của FADO VIP CLUB với nhiều đặc quyền và ưu đãi riêng có 1-0-2
+            như nhận chiết khấu trực tiếp trên từng sản phẩm, ưu tiên hỗ trợ
+            nhanh chóng, hỗ trợ vận chuyển siêu tốc, nhận quà mừng sinh nhật,...
+          </p>
+          <p>
+            Ngoài ra, tại FADO, mọi người còn dễ dàng thanh toán với nhiều hình
+            thức khác nhau như: <br />
+            - Thanh toán trực tuyến <br />
+            - Chuyển khoản cho FADO, <br />
+            - Thanh toán qua cổng VNPAY <br />
+            - Thanh toán trả góp 0% qua tín dụng <br />- …
+          </p>
+          <p>
+            Rất nhiều <span /> và các sản phẩm hàng hiệu chính hãng từ nhiều
+            ngành hàng khác nhau như thời trang, công nghệ, điện tử, gia dụng,
+            chăm sóc sức khỏe - sắc đẹp, đồ chơi,...từ các thương hiệu nổi tiếng
+            khác nhau có trên FADO cho bạn thoải sức mua sắm. Nếu bạn đang muốn
+            sở hữu sản phẩm này hay bất kỳ mặt hàng nào từ
+            <span className="title-product-made-in select-county">Mỹ</span>, Nhật, Anh, Đức,
+            Úc,...thì còn chần chờ gì mà không truy cập và trải nghiệm ngay.
+          </p>
+        </div>
+      </section>
+     
+      {/* go top */}
+      <div className="bar-icon-top">
+        <Link to="/CardPay">
+          <i className="icofont-rocket-alt-1" />
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default Filterproduct;

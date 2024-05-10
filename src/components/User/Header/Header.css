@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* @import url(../HomePage/NavOption.css); */
+
+body {
+  box-sizing: border-box;
+}
+.position-sticky{
+  position:sticky;
+}
+.Form-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+}
+.line-short {
+  width: 100%;
+  height: auto;
+  background: #000;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 8px;
+  font-weight: 600;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+}
+.Search {
+  display: block;
+  align-items: center;
+  justify-content: start;
+}
+.title-search {
+  display: flex;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-style: normal;
+}
+.title-search li {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  min-width: 80px;
+  transition: 0.33s ease;
+}
+.title-search li:hover {
+  background-color: #000;
+  color: #e5e5e5;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.taskbar-search {
+  display: flex;
+  align-items: center;
+  /* background-color: #e5e5e5; */
+  height: 70px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 600px;
+  position: relative;
+}
+.Search .title-search li:hover ~ .taskbar-search {
+  border-top-left-radius: 10px;
+}
+.input {
+  width: 95%;
+}
+.search-icon {
+  cursor: pointer;
+  display: flex;
+  justify-content: end;
+  margin: 10px 0;
+}
+.input input {
+  margin: 10px;
+  padding: 5px 15px;
+  width: 96%;
+  border: none;
+  border-radius: 20px;
+  background-color: dimgrey;
+  color: azure;
+}
+
+input::placeholder {
+  color: white;
+}
+input:focus {
+  outline: none;
+}
+
+.Form-signup {
+  display: flex;
+  align-items: center;
+  color: black;
+  margin: 10px;
+  gap: 5px;
+}
+/* bag */
+.bag {
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px #000 solid;
+}
+.bag li i{
+  font-size: 20px;
+}
+.signup a,
+.bag a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signup button {
+  border: none;
+  padding: 8px 15px;
+  border-radius: 10px;
+  background-color: #000;
+  color: #e5e5e5;
+  margin: 10px;
+}

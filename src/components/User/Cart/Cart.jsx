@@ -1,0 +1,323 @@
+import React from "react";
+import "./Cart.css";
+import { Link } from "react-router-dom";
+const Cart = () => {
+  return (
+    <div>
+      {/*  */}
+      <main>
+        <div className="select-inland-import">
+          <ul className="checkbox-inland-import">
+            <li>
+              <div className="container">
+                <div className="container">
+                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
+                  <label htmlFor="cbx" className="check">
+                    <svg width="18px" height="18px" viewBox="0 0 18 18">
+                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
+                      <polyline points="1 9 7 14 15 4" />
+                    </svg>
+                  </label>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="title-product-cart">
+                <img
+                  width={48}
+                  height={48}
+                  src="https://img.icons8.com/parakeet-line/48/shop.png"
+                  alt="shop"
+                />
+                <i>Sản phẩm</i>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li />
+            <li />
+            <li />
+            <li />
+            <li />
+          </ul>
+          <ul className="element-product">
+            <li>Cách thức giao</li>
+            <li>Đơn giá</li>
+            <li>Số lượng</li>
+            <li>Số tiền</li>
+            <li>Thao tác</li>
+          </ul>
+        </div>
+        <section className="group-cart">
+          <div className="cart-product">
+            <ul className="cart-name">
+              <li className="container">
+                <div className="container">
+                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
+                  <label htmlFor="cbx" className="check">
+                    <svg width="18px" height="18px" viewBox="0 0 18 18">
+                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
+                      <polyline points="1 9 7 14 15 4" />
+                    </svg>
+                  </label>
+                </div>
+              </li>
+              <li className="cart-product-img">
+                <a href="$">
+                  <img
+                    data-src="https://cdn-amz.woka.io/images/I/71zdEncDbPS._SR200,200_.jpg"
+                    src="https://cdn-amz.woka.io/images/I/71zdEncDbPS._SR200,200_.jpg"
+                    alt="Womens Fruit"
+                    className="product-img lazyloaded"
+                  />
+                </a>
+              </li>
+              <li className="content-product-cart">
+                <div className="cart-name-product">
+                  <a href="$">Womens Fruit</a>
+                </div>
+                <div>
+                  Từ :{" "}
+                  <b>
+                    <span className="product-cart-made-in">Mỹ</span>
+                  </b>
+                </div>
+                <div className="cart-size-product">
+                  Size :{" "}
+                  <b>
+                    <spanc className="cart-size-product value-size">8.5</spanc>
+                  </b>
+                </div>
+                <div className="product-cart-text-color">
+                  Color :
+                  <b>
+                    <span className="cart-color-product">
+                      Wolf Grey Smoked Oz Canvas
+                    </span>
+                  </b>
+                </div>
+              </li>
+            </ul>
+            <ul className="info-bill-product">
+              <li className="ship-product">
+                <p>
+                  Giao tiêu chuẩn <br />
+                  Giao nhanh, tiêt kiệm
+                </p>
+              </li>
+              <li className="initial-value">1,138,409 đ</li>
+              <li className="quantity-input-value">1</li>
+              <li className="price-value-product">1,213,280 đ</li>
+              <li>
+                <a href="$">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width={100}
+                    height={100}
+                    viewBox="0 0 48 48"
+                  >
+                    <path d="M 24 4 C 20.491685 4 17.570396 6.6214322 17.080078 10 L 6.5 10 A 1.50015 1.50015 0 1 0 6.5 13 L 8.6367188 13 L 11.15625 39.029297 C 11.43025 41.862297 13.785813 44 16.632812 44 L 31.367188 44 C 34.214187 44 36.56875 41.862297 36.84375 39.029297 L 39.363281 13 L 41.5 13 A 1.50015 1.50015 0 1 0 41.5 10 L 30.919922 10 C 30.429604 6.6214322 27.508315 4 24 4 z M 24 7 C 25.879156 7 27.420767 8.2681608 27.861328 10 L 20.138672 10 C 20.579233 8.2681608 22.120844 7 24 7 z M 19.5 18 C 20.328 18 21 18.671 21 19.5 L 21 34.5 C 21 35.329 20.328 36 19.5 36 C 18.672 36 18 35.329 18 34.5 L 18 19.5 C 18 18.671 18.672 18 19.5 18 z M 28.5 18 C 29.328 18 30 18.671 30 19.5 L 30 34.5 C 30 35.329 29.328 36 28.5 36 C 27.672 36 27 35.329 27 34.5 L 27 19.5 C 27 18.671 27.672 18 28.5 18 z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="cart-product">
+            <ul className="cart-name">
+              <li className="container">
+                <div className="container">
+                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
+                  <label htmlFor="cbx" className="check">
+                    <svg width="18px" height="18px" viewBox="0 0 18 18">
+                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
+                      <polyline points="1 9 7 14 15 4" />
+                    </svg>
+                  </label>
+                </div>
+              </li>
+              <li className="cart-product-img">
+                <a href="$">
+                  <img
+                    data-src="https://cdn-amz.woka.io/images/I/71zdEncDbPS._SR200,200_.jpg"
+                    src="https://cdn-amz.woka.io/images/I/71zdEncDbPS._SR200,200_.jpg"
+                    alt="Womens Fruit"
+                    className="product-img lazyloaded"
+                  />
+                </a>
+              </li>
+              <li className="content-product-cart">
+                <div className="cart-name-product">
+                  <a href="$">Womens Fruit</a>
+                </div>
+                <div>
+                  Từ :{" "}
+                  <b>
+                    <span className="product-cart-made-in">Mỹ</span>
+                  </b>
+                </div>
+                <div className="cart-size-product">
+                  Size :{" "}
+                  <b>
+                    <spanc className="cart-size-product value-size">8.5</spanc>
+                  </b>
+                </div>
+                <div className="product-cart-text-color">
+                  Color :
+                  <b>
+                    <span className="cart-color-product">
+                      Wolf Grey Smoked Oz Canvas
+                    </span>
+                  </b>
+                </div>
+              </li>
+            </ul>
+            <ul className="info-bill-product">
+              <li className="ship-product">
+                <p>
+                  Giao tiêu chuẩn <br />
+                  Giao nhanh, tiêt kiệm
+                </p>
+              </li>
+              <li className="initial-value">1,138,409 đ</li>
+              <li className="quantity-input-value">1</li>
+              <li className="price-value-product">1,213,280 đ</li>
+              <li>
+                <a href="$">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width={100}
+                    height={100}
+                    viewBox="0 0 48 48"
+                  >
+                    <path d="M 24 4 C 20.491685 4 17.570396 6.6214322 17.080078 10 L 6.5 10 A 1.50015 1.50015 0 1 0 6.5 13 L 8.6367188 13 L 11.15625 39.029297 C 11.43025 41.862297 13.785813 44 16.632812 44 L 31.367188 44 C 34.214187 44 36.56875 41.862297 36.84375 39.029297 L 39.363281 13 L 41.5 13 A 1.50015 1.50015 0 1 0 41.5 10 L 30.919922 10 C 30.429604 6.6214322 27.508315 4 24 4 z M 24 7 C 25.879156 7 27.420767 8.2681608 27.861328 10 L 20.138672 10 C 20.579233 8.2681608 22.120844 7 24 7 z M 19.5 18 C 20.328 18 21 18.671 21 19.5 L 21 34.5 C 21 35.329 20.328 36 19.5 36 C 18.672 36 18 35.329 18 34.5 L 18 19.5 C 18 18.671 18.672 18 19.5 18 z M 28.5 18 C 29.328 18 30 18.671 30 19.5 L 30 34.5 C 30 35.329 29.328 36 28.5 36 C 27.672 36 27 35.329 27 34.5 L 27 19.5 C 27 18.671 27.672 18 28.5 18 z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>{" "}
+          <div className="cart-product">
+            <ul className="cart-name">
+              <li className="container">
+                <div className="container">
+                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
+                  <label htmlFor="cbx" className="check">
+                    <svg width="18px" height="18px" viewBox="0 0 18 18">
+                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
+                      <polyline points="1 9 7 14 15 4" />
+                    </svg>
+                  </label>
+                </div>
+              </li>
+              <li className="cart-product-img">
+                <a href="$">
+                  <img
+                    data-src="https://cdn-amz.woka.io/images/I/71zdEncDbPS._SR200,200_.jpg"
+                    src="https://cdn-amz.woka.io/images/I/71zdEncDbPS._SR200,200_.jpg"
+                    alt="Womens Fruit"
+                    className="product-img lazyloaded"
+                  />
+                </a>
+              </li>
+              <li className="content-product-cart">
+                <div className="cart-name-product">
+                  <a href="$">Womens Fruit</a>
+                </div>
+                <div>
+                  Từ :{" "}
+                  <b>
+                    <span className="product-cart-made-in">Mỹ</span>
+                  </b>
+                </div>
+                <div className="cart-size-product">
+                  Size :{" "}
+                  <b>
+                    <spanc className="cart-size-product value-size">8.5</spanc>
+                  </b>
+                </div>
+                <div className="product-cart-text-color">
+                  Color :
+                  <b>
+                    <span className="cart-color-product">
+                      Wolf Grey Smoked Oz Canvas
+                    </span>
+                  </b>
+                </div>
+              </li>
+            </ul>
+            <ul className="info-bill-product">
+              <li className="ship-product">
+                <p>
+                  Giao tiêu chuẩn <br />
+                  Giao nhanh, tiêt kiệm
+                </p>
+              </li>
+              <li className="initial-value">1,138,409 đ</li>
+              <li className="quantity-input-value">1</li>
+              <li className="price-value-product">1,213,280 đ</li>
+              <li>
+                <a href="$">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width={100}
+                    height={100}
+                    viewBox="0 0 48 48"
+                  >
+                    <path d="M 24 4 C 20.491685 4 17.570396 6.6214322 17.080078 10 L 6.5 10 A 1.50015 1.50015 0 1 0 6.5 13 L 8.6367188 13 L 11.15625 39.029297 C 11.43025 41.862297 13.785813 44 16.632812 44 L 31.367188 44 C 34.214187 44 36.56875 41.862297 36.84375 39.029297 L 39.363281 13 L 41.5 13 A 1.50015 1.50015 0 1 0 41.5 10 L 30.919922 10 C 30.429604 6.6214322 27.508315 4 24 4 z M 24 7 C 25.879156 7 27.420767 8.2681608 27.861328 10 L 20.138672 10 C 20.579233 8.2681608 22.120844 7 24 7 z M 19.5 18 C 20.328 18 21 18.671 21 19.5 L 21 34.5 C 21 35.329 20.328 36 19.5 36 C 18.672 36 18 35.329 18 34.5 L 18 19.5 C 18 18.671 18.672 18 19.5 18 z M 28.5 18 C 29.328 18 30 18.671 30 19.5 L 30 34.5 C 30 35.329 29.328 36 28.5 36 C 27.672 36 27 35.329 27 34.5 L 27 19.5 C 27 18.671 27.672 18 28.5 18 z" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        {/* bar-pay */}
+        <section className="cart-order">
+          <div>
+            <div className="freeship">
+              <img
+                src="https://st-fe-v2.fado.vn/desktop/image/page/cart-page/freeship-text.svg"
+                alt=""
+                className="mz-mr-2"
+              />{" "}
+              <i></i>
+              <i style={{ fontWeight: 500 }}>
+                Đơn hàng đã được miễn phí giao hàng trong nước
+              </i>
+            </div>
+            <div className="btn-voucher">
+              <input
+                type="text"
+                placeholder="Nhập mã giảm giá"
+                className="discount-code-input"
+              />
+              <button>Áp dụng</button>
+            </div>
+          </div>
+          <div />
+          <div>
+            <ul />
+            <ul className="pay">
+              <li style={{ color: "rgb(130, 136, 136)" }}>
+                Tổng tiền sản phẩm:
+              </li>
+              <li className="total-price-value-product">1,213,280 đ</li>
+              <li>
+                <Link to="/Thanhtoandathang">
+                  <button>Đặt hàng</button>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      {/*  */}
+    </div>
+  );
+};
+
+export default Cart;

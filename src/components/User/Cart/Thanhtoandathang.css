@@ -143,10 +143,7 @@
   color: #141414;
   border: 2px #141414 solid;
 }
-.write-info-orderpay button {
-  background: #141414;
-  color: #dee0e4;
-}
+
 /* phuong thuc thanh toan */
 .phuong-thuc-thanh-toan {
   margin: 10px;
@@ -315,7 +312,7 @@
   border-bottom-right-radius: 4px;
 }
 .phi-dat-don {
-  background: #141414;
+  background: #5c5c5c;
   color: #f7fffd;
   padding: 5px 0;
   align-items: center;
@@ -339,5 +336,4 @@ padding: 5px;width: 80%;
 border: none;
 background: #141414;
 color: #f7fffd;
-
 }

@@ -28,27 +28,27 @@ const Assistant = () => {
       <div className="tool-text">
         <h1>Công cụ mua sắm thông minh</h1>
         <p>
-          *Công cụ mua sắm thông minh * Cài đặt Ứng dụng FADO Extension vào
+          *Công cụ mua sắm thông minh * Cài đặt Ứng dụng T&T Extension vào
           trình duyệt web (Chrome, Coccoc, Edge, Firefox...) để trải nghiệm
           giải pháp mua sắm thông minh, báo giá nhanh chóng, thanh toán an
           toàn.
         </p>
         <h4 style={{fontWeight: 700, margin: '20px 0'}}>
-          Cài đặt Extension FADO
+          Cài đặt Extension T&T
         </h4>
         <div className="tool-extension">
-          <img src="http://localhost:3000/my-app/src/assets/imgs/chrome.png" />
+          <img src="https://st-fe-v2.fado.vn/desktop/image/page/extension/chrome.png" />
           <img src="https://st-fe-v2.fado.vn/desktop/image/page/extension/safari.png" />
           <img src="https://st-fe-v2.fado.vn/desktop/image/page/extension/microsoft-edge.png" />
         </div>
       </div>
       <div className="tool-img">
-        <img src="../../../assets/imgs/chimcanhcut.png" alt="" />
+        <img src="https://i.pinimg.com/236x/e7/36/70/e73670ae512b7a916b3c109496b6064d.jpg" alt="" />
       </div>
     </div>
   </section>
   <div className="web-cooperation">
-    <h1>FADO Extension đang được kích hoạt tại các Website sau</h1>
+    <h1>T&T Extension đang được kích hoạt tại các Website sau</h1>
     <p>
       Danh sách website được thêm vào liên tục theo xu hướng và sở thích của
       Quý khách
@@ -157,14 +157,14 @@ const Assistant = () => {
       </div></a>
   </section>
   <div className="web-cooperation">
-    <h5>Nếu FADO Extension chưa hỗ trợ website Quý khách yêu thích.</h5>
+    <h5>Nếu T&T Extension chưa hỗ trợ website Quý khách yêu thích.</h5>
     <p>Trợ lý mua sắm 1:1 luôn sẵn sàng</p>
     <a href="#tool-smart"><button>Sử dụng trợ lý mua sắm</button></a>
   </div>
   {/* FADO Extension */}
   <div className="fado-Extension">
-    <h1>Tính năng vượt trội của FADO Extension</h1>
-    <p>Những lý do bạn nên chọn FADO Extension làm trợ lý mua sắm</p>
+    <h1>Tính năng vượt trội của T&T Extension</h1>
+    <p>Những lý do bạn nên chọn T&T Extension làm trợ lý mua sắm</p>
   </div>
   <section className="supertool">
     <div style={{display: 'grid', placeItems: 'center'}}>
@@ -280,8 +280,8 @@ const Assistant = () => {
   {/* guide */}
   <div className="guide">
     <img className="img-guide" src="https://st-fe-v2.fado.vn/desktop/image/page/extension/extension-bg.png" alt="" /><br />
-    <h4 style={{marginTop: '30px'}}>Cài đặt Extension FADO</h4>
-    <img src="./public/IMG/chrome.png" />
+    <h4 style={{marginTop: '30px'}}>Cài đặt Extension T&T</h4>
+    <img src="https://st-fe-v2.fado.vn/desktop/image/page/extension/chrome.png" />
     <img src="https://st-fe-v2.fado.vn/desktop/image/page/extension/safari.png" />
     <img src="https://st-fe-v2.fado.vn/desktop/image/page/extension/microsoft-edge.png" />
   </div>

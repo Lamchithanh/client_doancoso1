@@ -13,7 +13,7 @@
 .main-signup {
   backdrop-filter: blur(5px);
   width: 600px;
-  height: 700px;
+  height: 800px;
   background-color: #ecedec22;
   display: grid;
   place-items: center;
@@ -135,4 +135,8 @@
 
 .btn:hover {
   border: 1px solid #2d79f3;
+}
+
+.inputForm i{
+  font-size: 16px;
 }

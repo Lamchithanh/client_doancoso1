@@ -1,17 +1,16 @@
 import { Routes, Route, Link, NavLink } from "react-router-dom";
 import "./Header.css";
-
+import logo from "../../../assets/imgs/logo2.png"
 function Header() {
   return (
-    <header>
+    <header style={{position:"relative", zIndex:"99"}}>
       <div className="position-sticky">
         <div className="line-short">Xin kính chào quý khách</div>
         <div className="Form-nav">
           <div className="Logo">
             <Link to="/">
               <img
-                src="https://st-fe-v2.fado.vn/desktop/image/logo/fado_black_v2.svg"
-                alt=""
+                src={logo}
                 className="logo"
               />
             </Link>
@@ -23,7 +22,7 @@ function Header() {
               <li>từ Nhật</li>
               <li>từ Đức</li>
               <li>từ Anh</li>
-              <li>Fado Mall</li>
+              <li>2T Mall</li>
             </div>
             <div className="taskbar-search">
               <div className="input">
@@ -1503,7 +1502,7 @@ function Header() {
             </li>
             <li className="line-underline">
               <Link className="line-text" to="/Megavita">
-                FADO MALL
+                2T MALL
               </Link>
             </li>
             <li className="line-underline">

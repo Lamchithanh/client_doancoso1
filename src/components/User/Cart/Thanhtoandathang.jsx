@@ -3,6 +3,7 @@ import "./Thanhtoandathang.css";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import Example from "./modal";
+import Examples from "./modalorder";
 function Thanhtoandathang() {
  
   return (
@@ -192,7 +193,7 @@ function Thanhtoandathang() {
               <div className="info-orderpay">
                 <div className="info-orderpay-login">
                   <div className="info-orderpay-login-text">
-                    Đăng nhập tài khoản Fado để mua hàng, Quý Khách sẽ nhận thêm
+                    Đăng nhập tài khoản T&T để mua hàng, Quý Khách sẽ nhận thêm
                     nhiều ưu đãi thành viên và nhận Loyalty Points trên mỗi đơn
                     hàng.
                   </div>
@@ -220,7 +221,7 @@ function Thanhtoandathang() {
                 <div className="thong-tin-them">
                   Giá sản phẩm đảm bảo không biến động trong vòng 60 phút căn cứ
                   vào thời điểm Quý Khách Xác nhận đặt hàng thành công. Đơn hàng
-                  của Quý Khách chỉ được người bán thực hiện khi Fado xác nhận
+                  của Quý Khách chỉ được người bán thực hiện khi T&T xác nhận
                   đơn hàng được đã được thanh toán.
                 </div>
                 <div className="chon-loai-thanh-toan">
@@ -299,11 +300,11 @@ function Thanhtoandathang() {
                       </div>
                       <div className="phan-thong-tin-con-lai">
                         <p>
-                          Vui lòng chọn chuyển khoản nhanh 24/7 để Fado có thể
+                          Vui lòng chọn chuyển khoản nhanh 24/7 để T&T có thể
                           nhận được thông tin thanh toán một cách nhanh nhất.
                           Khi thanh toán tại máy ATM, vì không thể ghi chú nội
                           dung nên qúy khách vui lòng liên hệ qua email hoặc
-                          tổng đài Fado để được hỗ trợ.
+                          tổng đài T&T để được hỗ trợ.
                         </p>
                         <p>
                           Nhấn nút <b>ĐẶT MUA</b> để hoàn tất đơn đặt hàng và
@@ -311,7 +312,7 @@ function Thanhtoandathang() {
                         </p>
                         <p>
                           Đơn hàng của Quý Khách chỉ được người bán thực hiện
-                          khi Fado xác nhận đơn hàng được thanh toán với đầy đủ
+                          khi T&T xác nhận đơn hàng được thanh toán với đầy đủ
                           thông tin từ ngân hàng theo cú pháp đã được hướng dẫn.
                         </p>
                         <p>
@@ -359,7 +360,7 @@ function Thanhtoandathang() {
                   </ul>
                 </div>
                 <div className="dat-mua">
-                  <button >ĐẶT MUA</button>
+                <Examples/>
                 </div>
               </div>
             </div>
@@ -368,8 +369,8 @@ function Thanhtoandathang() {
       </main>
       <footer className="orderpay-footer container">
         <div className="orderpay-footer-web">
-          <b>Fado.vn</b> - Fado.vn - Sàn thương mại điện tử xuyên biên giới hàng
-          đầu Việt Nam <br /> Giấy phép số 0316534223. Chịu trách nhiệm: Fado
+          <b>T&T.vn</b> - T&T.vn - Sàn thương mại điện tử xuyên biên giới hàng
+          đầu Việt Nam <br /> Giấy phép số 0316534223. Chịu trách nhiệm: T&T
           Global
         </div>
         <div>

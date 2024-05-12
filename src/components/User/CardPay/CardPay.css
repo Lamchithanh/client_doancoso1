@@ -2,9 +2,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-
+.main-cardpay {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
 .group-cardpay {
-  margin: 20px 100px;
   display: block;
   align-items: center;
   font-size: 13px;
@@ -15,20 +17,20 @@ body {
 .cardpay-head {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  padding: 50px 0;
   gap: 20px;
+  width: 1000px;
 }
 .cardpay-img img {
   color: transparent;
-  height: 500px;
-  max-width: 480px;
+  height: autonpm start;
+  min-width: 350px;
   vertical-align: middle;
   object-fit: cover;
   justify-content: center;
 }
 .cardpay-img {
-  height: 100%;
-  width: 480px;
+  width: 390px;
   flex-shrink: 0;
   border: 1px #000 solid;
   overflow: hidden;
@@ -36,13 +38,19 @@ body {
   height: 100%;
   position: relative;
   transition-property: transform, -webkit-transform;
+  align-items: center;
+  display: flex;
+  height: 600px;
+  justify-content: center;
 }
-
+.cardpay-title-name {
+  max-width: 600px;
+}
 .madein-rate,
 .check-radio {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  padding: 10px;
+  padding: 10px;justify-content: space-between;
 }
 .made-in {
   background: #000;
@@ -95,8 +103,8 @@ input[type="radio"] {
   pointer-events: none;
 }
 .price-product-values {
-  font-weight: 700;
-  margin: 10px;
+  font-weight: 500;
+  margin: 5px;
 }
 
 .cardpay-detail {
@@ -127,30 +135,34 @@ input[type="radio"] {
 
 /* select-option */
 .size-color {
-  margin: 10px;display: flex;
+  margin: 10px;
+  display: flex;
   align-items: center;
   gap: 20px;
 }
-.size,.color{
+.size,
+.color {
   display: flex;
   align-items: center;
   font-style: 50px;
-  margin:  10px 0;
+  margin: 10px 0;
   font-size: 20px;
   font-weight: 600;
   color: #505f77;
 }
-label{
+label {
   font-style: 20px;
 }
-.size select ,.color select{
+.size select,
+.color select {
   margin-left: 10px;
   font-size: 18px;
   padding: 10px;
   border: rgb(69, 133, 133) 2px solid;
   border-radius: 10px;
 }
-.size option,.color option{ 
+.size option,
+.color option {
   margin: 5px;
 }
 /*quantity-input-button  */
@@ -172,7 +184,6 @@ label{
   width: 50px;
   text-align: center;
   border: none;
-
 }
 
 .product-detail-shipping {
@@ -185,4 +196,63 @@ label{
 .product-detail-shipping a {
   color: #000;
   /* cursor: pointer; */
+}
+.fuction-content{
+  margin: 10px 0;
+}
+/* danh gia san pham */
+.price-and-discout {
+  display: flex;
+  gap: 10px;
+}
+.price-and {
+  text-decoration: line-through;
+}
+.danh-gia-san-pham {
+  margin-top: 40px;
+}
+.nguoi-ban {
+  border: #000 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+.ban-can-ho-tro {
+  border: #000 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 15px 0;
+}
+.title-ho-tro {
+  padding: 0 10px;
+  margin: 10px;
+}
+.title-ho-tro li {
+  list-style-type: disc;
+}
+.danh-gia-khach-hang {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+.so-sao i {
+  font-size: 16px;
+}
+.so-luot span {
+  font-size: 10px;
+  color: #505f77;
+}
+.phan-tram-chat-luong {
+  display: grid;
+  gap: 10px;
+}
+.phan-tram-chat-luong li{
+  background: linear-gradient(90deg, #000000 20%, #ffffff 20%);
+  padding: 10px;border: #b5b9c0 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.phan-tram-chat-luong span{
+  color: #ffffff;
 }

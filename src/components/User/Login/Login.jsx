@@ -7,7 +7,7 @@ const Login = () => {
     <div className="login-container">
       <main>
         <form className="form">
-          <h1>FADO</h1>
+          <h1>T&T</h1>
           <div className="flex-column">
             <label>Email </label>
           </div>

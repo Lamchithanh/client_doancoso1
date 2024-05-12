@@ -9,7 +9,7 @@ const Shareinfo = () => {
           <h1>Đang cập nhật!</h1>
           <div>
             <img
-              src="https://i.pinimg.com/564x/75/21/b5/7521b55ac4e0e45507e2086e7ebf3f85.jpg"
+              src="https://i.pinimg.com/564x/2b/3a/41/2b3a417e0cc74580c62ca74fb95e9bfc.jpg"
               alt=""
             />
           </div>

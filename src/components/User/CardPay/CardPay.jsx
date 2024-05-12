@@ -4,141 +4,204 @@ import "./CardPay.css";
 const CardPay = () => {
   return (
     <div>
-      <main>
-        <div className="group-cardpay">
-          <div className="cardpay-head">
-            <div className="cardpay-img">
-              <img
-                src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                className="product-card__img lazyloaded"
-              />
-            </div>
-            <div className="cardpay-info">
-              <div className="trademark-text mb-2">
-                Thương hiệu:{" "}
-                <span className="trademark-product bold">Prada</span>
+      <main className="main-cardpay container">
+        <div className="group-cardpay container">
+          <div style={{ display: "flex", gap:"30px" }}>
+            <div className="cardpay-head">
+              <div className="cardpay-img">
+                <img
+                  src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
               </div>
-              <h2 className="cardpay-title-name">
-                Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances
-                3614273961707
-              </h2>
-              <div className="madein-rate">
-                <div className="made-in">
-                  Bán tại: <span className="country-of-manufacture">Mỹ</span>
+              <div className="cardpay-info">
+                <div className="trademark-text mb-2">
+                  Thương hiệu:{" "}
+                  <span className="trademark-product bold">Prada</span>
                 </div>
-                <div className="rate">
-                  <div className="values-rate">
-                    5.0 <i className="icofont-star" />
-                    <i className="icofont-star" />
-                    <i className="icofont-star" />
-                    <i className="icofont-star" />
-                    <i className="icofont-star" />
+                <h4 className="cardpay-title-name">
+                  Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances
+                  3614273961707
+                </h4>
+                <div className="madein-rate">
+                  <div className="made-in">
+                    Bán tại: <span className="country-of-manufacture">Mỹ</span>
+                  </div>
+                  <div className="rate">
+                    <div className="values-rate">
+                      5.0 <i className="icofont-star" />
+                      <i className="icofont-star" />
+                      <i className="icofont-star" />
+                      <i className="icofont-star" />
+                      <i className="icofont-star" />
+                    </div>
+                  </div>
+                </div>
+                <ul className="preferential">
+                  <li>
+                    <a href="$">
+                      Nhận ưu đãi
+                      <span className="preferential-sales bold">
+                        lên đến 6%
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="$">
+                      <span className="slae1% bold">Giảm 1%</span>trên đơn
+                      hàng(tối thiểu 200,000đ) khi thanh toán qua
+                      <span className="Pay bold">Pay</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="$">Đổi trả sản phẩm 24h</a>
+                  </li>
+                  <li>
+                    <a href="$">
+                      Giá về việt nam đã bao gồm các loại phí, không phát sinh
+                      phụ phí
+                    </a>
+                  </li>
+                </ul>
+                <form className="check-radio" action>
+                  <div className="form-check">
+                    <input
+                      type="radio"
+                      className="form-check-input"
+                      id="radio1"
+                      name="optradio"
+                      defaultValue="option1"
+                      defaultChecked
+                    />
+                    <label className="form-check-label" htmlFor="radio1">
+                      Nhập khẩu tiêu dùng
+                    </label>
+                  </div>
+                  <div className="form-check">
+                    <input
+                      type="radio"
+                      className="form-check-input"
+                      id="radio2"
+                      name="optradio"
+                      defaultValue="option2"
+                    />
+                    <label className="form-check-label" htmlFor="radio2">
+                      Nhập khẩu thương mại
+                    </label>
+                  </div>
+                </form>
+                {/* check input */}
+                <div className="price-and-discout">
+                  <span className="price-and">2.000.000đ</span>
+                  <span>|</span>GIẢM
+                  <span className="and-discout">
+                    53.00 <span>%</span>
+                  </span>
+                </div>
+                <div className="cardpay-values-price">
+                  <h2 className="price-product-values">1,280,552 đ</h2>
+                </div>
+                {/* size-color */}
+                <div className="size-color">
+                  <div className="size">
+                    <div htmlFor="cars">Size</div>
+                    <select id="cars">
+                      <option value="volvo">X-Small</option>
+                      <option value="saab">Small</option>
+                      <option value="opel">Medium</option>
+                      <option value="audi">Large</option>
+                      <option value="audi">X-Large</option>
+                      <option value="audi">XX-Large</option>
+                    </select>
+                  </div>
+                  <div className="color">
+                    <div htmlFor="cars">Color</div>
+                    <select id="cars">
+                      <option value="volvo">Black</option>
+                      <option value="saab">Navy</option>
+                      <option value="opel">White</option>
+                      <option value="audi">blue</option>
+                    </select>
+                  </div>
+                </div>
+                {/* quantity-input */}
+                <div className="quantity-input-button">
+                  <div class="quantity-input">
+                    <button>-</button>
+                    <input type="number" value="1" />
+                    <button>+</button>
+                  </div>
+                  <div className="btn-add-product">
+                    <button name id className="btn btn-primary">
+                      Thêm vào giỏ hàng
+                    </button>
+                  </div>
+                </div>
+                <div className="product-detail-shipping">
+                  *Miễn phí Vận chuyển Siêu tốc cho Platinum và Super VIP.
+                  <a
+                    className
+                    href="$"
+                    data-toggle="modal"
+                    data-target="#user-fado-vip-info-modal"
+                  >
+                    <b>Nâng cấp ngay</b>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="danh-gia-san-pham">
+              <div className="nguoi-ban">
+                Người bán: <span>Miczone LLC</span>
+              </div>
+              <div className="ban-can-ho-tro">
+                <ul className="title-ho-tro">
+                  <b>Bạn cần hỗ trợ</b>
+                  <li>Hướng dẫn mua hàng</li>
+                  <li>Phương thức thanh toán</li>
+                  <li>Chính sách đổi trả hàng</li>
+                  <li>Nguồn điện sử dụng</li>
+                  <li>Hướng dẫn chọn size</li>
+                </ul>
+              </div>
+              <label htmlFor="">
+                {" "}
+                <b>Đánh giá của khách hàng</b>
+              </label>
+              <div className="danh-gia-khach-hang">
+                <h1 className="so-sao-danh-gia">5.0</h1>
+                <div className="so-sao-va-so-luot">
+                  <div className="so-sao">
+                    <i class="icofont-star"></i>
+                    <i class="icofont-star"></i>
+                    <i class="icofont-star"></i>
+                    <i class="icofont-star"></i>
+                    <i class="icofont-star"></i>
+                  </div>
+                  <div className="so-luot">
+                    (<span>1900</span> <span>đánh giá</span>)
                   </div>
                 </div>
               </div>
-              <ul className="preferential">
+              <div className="phan-tram-chat-luong">
                 <li>
-                  <a href="$">
-                    Nhận ưu đãi
-                    <span className="preferential-sales bold">lên đến 6%</span>
-                  </a>
+                  <span>51<span>%</span></span> <i> sản phẩm chất lượng</i>
+                  <i class="icofont-rounded-right"></i>
                 </li>
                 <li>
-                  <a href="$">
-                    <span className="slae1% bold">Giảm 1%</span>trên đơn
-                    hàng(tối thiểu 200,000đ) khi thanh toán qua
-                    <span className="Pay bold">Pay</span>
-                  </a>
+                  <span>100<span>%</span></span>  Nhân viên hỗ trợ
+                  <i class="icofont-rounded-right"></i>
                 </li>
                 <li>
-                  <a href="$">Đổi trả sản phẩm 24h</a>
+                  <span>50<span>%</span></span>  Giá tốt
+                  <i class="icofont-rounded-right"></i>
                 </li>
                 <li>
-                  <a href="$">
-                    Giá về việt nam đã bao gồm các loại phí, không phát sinh phụ
-                    phí
-                  </a>
+                  <span>90<span>%</span></span>  Giao hàng đúng hẹn
+                  <i class="icofont-rounded-right"></i>
                 </li>
-              </ul>
-              <form className="check-radio" action>
-                <div className="form-check">
-                  <input
-                    type="radio"
-                    className="form-check-input"
-                    id="radio1"
-                    name="optradio"
-                    defaultValue="option1"
-                    defaultChecked
-                  />
-                  <label className="form-check-label" htmlFor="radio1">
-                    Nhập khẩu tiêu dùng
-                  </label>
-                </div>
-                <div className="form-check">
-                  <input
-                    type="radio"
-                    className="form-check-input"
-                    id="radio2"
-                    name="optradio"
-                    defaultValue="option2"
-                  />
-                  <label className="form-check-label" htmlFor="radio2">
-                    Nhập khẩu thương mại
-                  </label>
-                </div>
-              </form>
-              {/* check input */}
-              <div className="cardpay-values-price">
-                <h2 className="price-product-values">1,280,552 đ</h2>
-              </div>
-              {/* size-color */}
-              <div className="size-color">
-                <div className="size">
-                  <div htmlFor="cars">Size</div>
-                  <select id="cars">
-                    <option value="volvo">X-Small</option>
-                    <option value="saab">Small</option>
-                    <option value="opel">Medium</option>
-                    <option value="audi">Large</option>
-                    <option value="audi">X-Large</option>
-                    <option value="audi">XX-Large</option>
-                  </select>
-                </div>
-                <div className="color">
-                  <div htmlFor="cars">Color</div>
-                  <select id="cars">
-                    <option value="volvo">Black</option>
-                    <option value="saab">Navy</option>
-                    <option value="opel">White</option>
-                    <option value="audi">blue</option>
-                  </select>
-                </div>
-              </div>
-              {/* quantity-input */}
-              <div className="quantity-input-button">
-                <div class="quantity-input">
-                  <button>-</button>
-                  <input type="number" value="1" />
-                  <button>+</button>
-                </div>
-                <div className="btn-add-product">
-                  <button name id className="btn btn-primary">
-                    Thêm vào giỏ hàng
-                  </button>
-                </div>
-              </div>
-              <div className="product-detail-shipping">
-                *Miễn phí Vận chuyển Siêu tốc cho Platinum và Super VIP.
-                <a
-                  className
-                  href="$"
-                  data-toggle="modal"
-                  data-target="#user-fado-vip-info-modal"
-                >
-                  <b>Nâng cấp ngay</b>
-                </a>
               </div>
             </div>
           </div>

@@ -1,15 +1,17 @@
 import "./Footer.css";
+import logo from "../../../assets/imgs/logo2.png"
+
 function Footer() {
   return (
     <footer>
       <div className="footer">
         <div className="columne-logo">
           <img
-            src="https://st-fe-v2.fado.vn/desktop/image/logo/fado_white_v2.svg"
+            src={logo}
             alt=""
           />
           <div className="conten-introduce">
-            FADO.VN - Nền tảng cung cấp giải pháp mua hàng quốc tế phục vụ nhu
+            T&T.VN - Nền tảng cung cấp giải pháp mua hàng quốc tế phục vụ nhu
             cầu cao cấp, dịch vụ nhanh chóng &amp; tin cậy, nhằm mang đến cho
             bạn những sự lựa chọn thời thượng &amp; độc đáo nhất. Tại đây, quý
             khách hàng có thể lựa chọn không giới hạn với hơn 5 tỷ sản phẩm chất
@@ -93,15 +95,15 @@ function Footer() {
               </li>
             </ul>
             <ul className="columne">
-              <h6 className="footer-title">Về FADO.VN</h6>
+              <h6 className="footer-title">Về T&T.VN</h6>
               <li>
-                <a href="$">Giới thiệu FADO</a>
+                <a href="$">Giới thiệu T&T</a>
               </li>
               <li>
                 <a href="$">Phản hồi khách hàng</a>
               </li>
               <li>
-                <a href="$">Báo chí nói về FADO</a>
+                <a href="$">Báo chí nói về T&T</a>
               </li>
               <li>
                 <a href="$">Trung tâm hỗ trợ</a>
@@ -125,7 +127,7 @@ function Footer() {
             <ul className="columne">
               <h6 className="footer-title">Hợp tác &amp; liên kết</h6>
               <li>
-                <a href="$">Bán hàng cùng FADO</a>
+                <a href="$">Bán hàng cùng T&T</a>
               </li>
               <li>
                 <a href="$">Chính sách đại lý</a>
@@ -236,11 +238,11 @@ function Footer() {
       </div>
       <div className="footer-foot">
         <div className="footer-foot-clo">
-          <h6>TÊN DOANH NGHIỆP: CÔNG TY CỔ PHẦN FADO GLOBAL</h6>
+          <h6>TÊN DOANH NGHIỆP: CÔNG TY CỔ PHẦN T&T GLOBAL</h6>
           <p>
             Địa chỉ công ty: 60 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1, Thành
             phố Hồ Chí Minh, Việt Nam Giấy phép số 0316534223. Chịu trách nhiệm:
-            FADO GLOBAL
+            T&T GLOBAL
           </p>
         </div>
         <div className="footer-foot-clo">

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Megavita.css";
+import { Link } from "react-router-dom";
 const Megavita = () => {
   return (
     <div>
@@ -203,7 +204,7 @@ const Megavita = () => {
             <br />
             <label className="cyberpunk-checkbox-label">
               <input type="checkbox" className="cyberpunk-checkbox" />
-              Fado choice
+              T&T choice
             </label>
           </div>
         </div>
@@ -211,27 +212,44 @@ const Megavita = () => {
         <div className="megavita-product">
           <div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -245,27 +263,44 @@ const Megavita = () => {
           </div>
           <div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -276,30 +311,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -310,30 +361,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -344,30 +411,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -378,30 +461,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -412,30 +511,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -446,30 +561,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -480,64 +611,46 @@ const Megavita = () => {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="card-product card-product-watch">
+          </div><div className="card-product card-product-watch">
             <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
             <div className="card-product-title">
-              <a
-                href="#"
+              <Link
+                to="/CardPay"
                 title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
                 className="product-deal-action-card__title-inner"
               >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
             <div className="price-product-icon">
               <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
-              </ul>
-              <ul className="item-icon">
-                <li className="add-cart">
-                  <i className="icofont-cart-alt" />
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
                 </li>
-                <li className="add-like">
-                  <i className="icofont-heart-alt" />
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
                 </li>
-              </ul>
-            </div>
-          </div>
-          <div className="card-product card-product-watch">
-            <div className="card-product-img">
-              <img
-                src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                data-src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
-                alt="Horbaach Maca 4800mg 120 Viên - Viên Uống Tăng Cường Sinh Lý Nam Và Nữ (08/2025 Giao Nhanh 48H)"
-                className="product-card__img ls-is-cached lazyloaded"
-              />
-            </div>
-            <div className="card-product-title">
-              <a
-                href="#"
-                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                className="product-deal-action-card__title-inner"
-              >
-                Daylight Artist Studio Lamp 2-6,000 Lux LED with 95+ CRI, 24cm
-                Wide Shade
-              </a>
-            </div>
-            <div className="price-product-icon">
-              <ul className="price-product">
-                <li className="price-product-values">8,181,654 đ</li>
-                <li className="price-product-default" />
               </ul>
               <ul className="item-icon">
                 <li className="add-cart">
@@ -551,7 +664,6 @@ const Megavita = () => {
           </div>
         </div>
       </section>
-      
 
       {/* go top */}
       <div className="bar-icon-top">

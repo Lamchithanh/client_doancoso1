@@ -49,6 +49,9 @@ a {
 }
 
 /* tool smart */
+.tool-extension img{
+  margin: 10px;
+}
 .tool-smart {
   display: flex;
   align-items: center;
@@ -81,6 +84,8 @@ a {
 }
 
 .tool-img img {
+  border-radius: 8px;
+  height: 400px;
   filter: drop-shadow(10px -5px 5px #333);
 }
 /* web cooperation */
@@ -210,6 +215,7 @@ img .img-guide {
 }
 .guide img {
   transition: 0.5s ease;
+  margin: 10px;
 }
 .guide img.img-guide:hover {
   box-shadow: 0 20px 30px -15px #848484;

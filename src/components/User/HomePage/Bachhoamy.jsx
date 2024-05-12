@@ -9,11 +9,11 @@ const Bachhoamy = () => {
           <div className="wait-product">
             <h2>Sẩn phẩm chưa cập nhật!</h2>
             <br />
-            Xin hứ lỗi
+            Xin thứ lỗi
           </div>
           <div className="img">
             <img
-              src="https://i.pinimg.com/236x/ac/b0/b8/acb0b8ed7e605e4603b8993c0c4b6909.jpg"
+              src="https://i.pinimg.com/564x/6a/da/da/6adadab5450c22e4996de4dd0a6e0bf9.jpg"
               alt=""
             />
           </div>

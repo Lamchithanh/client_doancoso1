@@ -46,310 +46,408 @@ const Filterproduct = () => {
             <li className="title-product-made-in"> Mỹ</li>
           </ul>
           <div className="list-search-product">
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
-              </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+          <div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
               </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
-              </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
-              </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+          </div>
+          <div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
               </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
-              </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
-              </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+          </div><div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
             </div>
-            <div className="card-product card-product-watch">
-              <div className="card-product-img">
-                <Link to="/CardPay">
-                  <img
-                    src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
-                    alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
-                    className="product-card__img lazyloaded"
-                  />
-                </Link>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
               </div>
-              <div className="card-product-title">
-                <Link
-                  to="/CardPay"
-                  title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
-                  className="product-deal-action-card__title-inner"
-                >
-                  Tissot T-ClassicTradition Chronograph Men's Watch
-                  T0636171103700
-                </Link>
-              </div>
-              <div className="price-product-icon">
-                <ul className="price-product">
-                  <li className="price-product-values">
-                    401,502,295 <sup>đ</sup>
-                  </li>
-                  <li className="price-product-default" />
-                </ul>
-                <ul className="item-icon">
-                  <li className="add-cart">
-                    <i className="icofont-cart-alt" />
-                  </li>
-                  <li className="add-like">
-                    <i className="icofont-heart-alt" />
-                  </li>
-                </ul>
-              </div>
+              <p>Xem thêm nguồn từ hàng</p>
             </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
+            </div>
+          </div><div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
+            </div>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
+            </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
+            </div>
+          </div><div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
+            </div>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
+            </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
+            </div>
+          </div><div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
+            </div>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
+            </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
+            </div>
+          </div><div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
+            </div>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
+            </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
+            </div>
+          </div><div className="card-product card-product-watch">
+            <div className="card-product-img">
+              <span className="card-product-discout">-30%</span>
+              <Link to="/CardPay">
+                <img
+                  src="https://cdn-beup.woka.io/uploads/store-merchant/2023/06/30/Fado.VN_1688108588.6453.jpg"
+                  data-src="https://cdn-jms.woka.io/media/catalog/product/cache/df24c858758eb768757877f23cd17493/t/i/tissot-t-classictradition-chronograph-men_s-watch-t0636171103700.jpg?width=350&height=350"
+                  alt="Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700"
+                  className="product-card__img lazyloaded"
+                />
+              </Link>
+            </div>
+            <div className="card-product-title">
+              <Link
+                to="/CardPay"
+                title="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
+                className="product-deal-action-card__title-inner"
+              >
+                Tissot T-ClassicTradition Chronograph Men's Watch T0636171103700
+              </Link>
+              <div className="sao-danh-gia">
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <i class="icofont-star"></i>
+                <span>-</span><span className="country-of-manufacture">Việt Nam</span>
+              </div>
+              <p>Xem thêm nguồn từ hàng</p>
+            </div>
+            <div className="price-product-icon">
+              <ul className="price-product">
+                <li className="price-product-values">
+                  401,502,295 <span>đ</span>
+                </li>
+                <li className="price-product-default">
+                  <span>
+                    8,925,226 <span>đ</span>{" "}
+                  </span>
+                </li>
+              </ul>
+              <ul className="item-icon">
+                <li className="add-cart">
+                  <i className="icofont-cart-alt" />
+                </li>
+                <li className="add-like">
+                  <i className="icofont-heart-alt" />
+                </li>
+              </ul>
+            </div>
+          </div>
           </div>
         </section>
       </main>
@@ -378,11 +476,11 @@ const Filterproduct = () => {
             <span className="title-search-product name-search">
               quần áo nữ
             </span>{" "}
-            hàng hiệu chính hãng, chất lượng tại FADO hàng hiệu chính hãng, chất
-            lượng tại FADO
+            hàng hiệu chính hãng, chất lượng tại T&T hàng hiệu chính hãng, chất
+            lượng tại T&T
           </p>
           <p>
-            Là sàn TMĐT xuyên biên giới hàng đầu, FADO cam kết mang đến sản phẩm
+            Là sàn TMĐT xuyên biên giới hàng đầu, T&T cam kết mang đến sản phẩm
             chính hãng, đảm bảo chất lượng. Tất cả
             <span className="title-search-product name-search">
               quần áo nữ
@@ -437,7 +535,7 @@ const Filterproduct = () => {
             thấy sẽ bằng giá bạn trả khi mua hàng, giá sản phẩm luôn cập nhật
             mới chuẩn xác theo thời gian. Lúc này, bạn có thể quan sát và tìm ra
             sản phẩm phù hợp để cho vào giỏ hàng. Ngoài ra bạn cũng lưu ý giá ưu
-            đãi, FADO luôn luôn cập nhật các chương trình ưu đãi hấp dẫn nhằm
+            đãi, T&T luôn luôn cập nhật các chương trình ưu đãi hấp dẫn nhằm
             mang đến cho khách hàng trải nghiệm mua sắm tốt nhất với mức giá
             phải chăng.
           </p>
@@ -482,13 +580,13 @@ const Filterproduct = () => {
             ở đâu đảm bảo chất lượng, chính hãng với giá tốt?
           </p>
           <p>
-            Sàn TMĐT xuyên biên giới <b>Fado.vn</b> với hàng tỷ sản phẩm từ
+            Sàn TMĐT xuyên biên giới <b>T&T.vn</b> với hàng tỷ sản phẩm từ
             <span className="title-product-made-in select-county">Mỹ</span>, Nhật, Anh, Đức,
             Úc,...sẽ giúp bạn chọn được
             <span className="title-search-product name-search">
               quần áo nữ
             </span>{" "}
-            như ý. Không chỉ đảm bảo chất lượng, cam kết nguồn gốc, FADO còn
+            như ý. Không chỉ đảm bảo chất lượng, cam kết nguồn gốc, T&T còn
             mang đến rất nhiều chương trình hấp dẫn dành cho khách hàng; đặc
             biệt là các ngày hội mua sắm lớn như: Primeday, Black Friday, Cyber
             Monday,... Khi mua vào thời điểm này, khách hàng sẽ nhận được nhiều
@@ -496,16 +594,16 @@ const Filterproduct = () => {
             chương trình tích điểm đổi mã giảm giá.
           </p>
           <p>
-            Bên cạnh đó, khách hàng khi mua sắm tại FADO còn có cơ hội là thành
-            viên của FADO VIP CLUB với nhiều đặc quyền và ưu đãi riêng có 1-0-2
+            Bên cạnh đó, khách hàng khi mua sắm tại T&T còn có cơ hội là thành
+            viên của T&T VIP CLUB với nhiều đặc quyền và ưu đãi riêng có 1-0-2
             như nhận chiết khấu trực tiếp trên từng sản phẩm, ưu tiên hỗ trợ
             nhanh chóng, hỗ trợ vận chuyển siêu tốc, nhận quà mừng sinh nhật,...
           </p>
           <p>
-            Ngoài ra, tại FADO, mọi người còn dễ dàng thanh toán với nhiều hình
+            Ngoài ra, tại T&T, mọi người còn dễ dàng thanh toán với nhiều hình
             thức khác nhau như: <br />
             - Thanh toán trực tuyến <br />
-            - Chuyển khoản cho FADO, <br />
+            - Chuyển khoản cho T&T, <br />
             - Thanh toán qua cổng VNPAY <br />
             - Thanh toán trả góp 0% qua tín dụng <br />- …
           </p>
@@ -513,7 +611,7 @@ const Filterproduct = () => {
             Rất nhiều <span /> và các sản phẩm hàng hiệu chính hãng từ nhiều
             ngành hàng khác nhau như thời trang, công nghệ, điện tử, gia dụng,
             chăm sóc sức khỏe - sắc đẹp, đồ chơi,...từ các thương hiệu nổi tiếng
-            khác nhau có trên FADO cho bạn thoải sức mua sắm. Nếu bạn đang muốn
+            khác nhau có trên T&T cho bạn thoải sức mua sắm. Nếu bạn đang muốn
             sở hữu sản phẩm này hay bất kỳ mặt hàng nào từ
             <span className="title-product-made-in select-county">Mỹ</span>, Nhật, Anh, Đức,
             Úc,...thì còn chần chờ gì mà không truy cập và trải nghiệm ngay.

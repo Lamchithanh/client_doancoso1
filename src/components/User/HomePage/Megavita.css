@@ -241,3 +241,10 @@ a {
   margin: 20px 0;
   font-size: 18px;
 }
+.sao-danh-gia{
+  display: flex;gap: 5px;
+  align-items: center;
+}
+.sao-danh-gia i{
+  font-size: 10px;
+}

@@ -132,7 +132,7 @@ const Codesales = () => {
         </button>
       </div>
       <main className="main-codesales">
-        <h1 className="voucher">VOUCHER TỪ FADO</h1>
+        <h1 className="voucher">VOUCHER TỪ T&T</h1>
       </main>
    
     </div>

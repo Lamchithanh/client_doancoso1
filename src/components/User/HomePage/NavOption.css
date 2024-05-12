@@ -28,6 +28,8 @@ header {
   will-change: transform;
   z-index: 80;
 }
+/* carouselExampleSlidesOnly */
+
 .Form-nav {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
@@ -39,6 +41,7 @@ header {
   align-items: center;
   font-size: 13px;
   height: 50px;
+  z-index: 99;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -87,12 +90,12 @@ header {
   font-size: 16px;
   color: #505f77;
   width: 300px;
-  height: 490px;
+  height: 450px;
   padding: 0;
   margin: 0;
   display: none;
   user-select: none;
-  z-index: 9;
+  z-index: 9999;
   top: 37px;
 }
 .submenu::before {
@@ -141,7 +144,7 @@ a.submenu-title {
   padding: 20px;
   font-weight: 400;
   width: auto;
-  height: 490px;
+  height: 450px;
   box-shadow: 5px -2px 5px 0px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
   position: absolute;
@@ -321,6 +324,7 @@ main {
 }
 .select-country ul {
   display: flex;
+  align-items: center;
 }
 .select-country ul li a {
   text-decoration: none;
@@ -445,6 +449,9 @@ ul.country3 {
   overflow: hidden;
 }
 /* carousel */
+.carousel{
+  height: 270px;
+}
 .carousel-slide {
   height: 200px;
   width: 85rem;
@@ -453,8 +460,6 @@ ul.country3 {
   margin-top: 10px;
 }
 .carousel-inner {
-  margin-top: 20px;
-  height: 200px;
   position: relative;
 }
 .group-comment {

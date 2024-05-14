@@ -5,8 +5,8 @@
 body {
   box-sizing: border-box;
 }
-.position-sticky{
-  position:sticky;
+.position-sticky {
+  position: sticky;
   font-style: 16px;
 }
 .Form-nav {
@@ -108,22 +108,116 @@ input:focus {
   border-radius: 10px;
   border: 2px #000 solid;
 }
-.bag li i{
+.bag li i {
   font-size: 20px;
 }
-.signup a,
+.signup > a,
 .bag a {
   color: black;
   text-decoration: none;
   font-size: 16px;
   font-weight: 600;
 }
-
-.signup button {
+.dropdown-menu {
+  padding: 0 !important;
+  padding-bottom: 10px !important;
+  width: 300px;
+}
+.dropdown-menu li.li-login,
+.dropdown-menu li.li-singup {
+  padding: 10px;
+}
+.li-login,
+.li-singup {
+transition: 0.33s ease;
+}
+.li-login a,
+.li-singup a {
+  font-size: 16px;
+  font-weight: 400;
+  color: #303846;
+  text-decoration: none;padding: 10px;
+}
+.li-login:hover,
+.li-singup:hover {
+  background: #858282;
+}
+.dropdown button {
+  margin: 0;
   border: none;
-  padding: 8px 15px;
   border-radius: 10px;
-  background-color: #000;
   color: #e5e5e5;
+}
+.body-conten-TvTpay {
+  padding: 0;
+}
+.body-conten-TvTpay > li {
   margin: 10px;
+}
+.body-conten-TvTpay > li:nth-child(4) {
+  text-align: center;
+}
+.body-conten-TvTpay li img {
+  height: 100%;
+}
+.title-name-login {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px ;
+  background: #f3f5f7;
+}
+.edit-title-user span i {
+  padding: 5px;
+  border-radius: 100rem;
+  background: #303846;
+  color: #e5e5e5;
+}
+.title-name-login li {
+  margin: 0;
+}
+.title-name-login li:nth-child(2) {
+  margin-top: 20px;
+  font-size: 12px;
+}
+.body-conten-TvTpay > li:nth-child(1),
+.body-conten-TvTpay > li:nth-child(2) {
+  font-weight: 600;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 13px;
+}
+.body-conten-TvTpay > li:nth-child(3) {
+  font-size: 12px;
+}
+.user-menu-list {
+  margin: 10px;
+  padding: 0;
+}
+.user-menu-list li {
+  font-size: 16px;
+  padding: 10px 0;
+  transition: 0.33s ease;
+  border-radius: 4px;
+}
+.user-menu-list > li:hover {
+  background: #f3f5f7;
+}
+.user-logout {
+  font-weight: 300;
+}
+.user-logout a {
+  text-decoration: none;
+  color: #303846;
+  font-size: 16px;
+  font-weight: 400;
+}
+.user-logout span i {
+  margin: 0 5px 0 10px;
+  font-size: 16px;
+}
+.user-menu-list li span{
+  margin: 10px;
+}
+.user-menu-list li span i{
+  font-size: 18px;
 }

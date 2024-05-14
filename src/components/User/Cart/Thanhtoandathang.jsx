@@ -2,6 +2,7 @@ import React from "react";
 import "./Thanhtoandathang.css";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
+import logo from "../../../assets/imgs/logo2.png"
 import Example from "./modal";
 import Examples from "./modalorder";
 function Thanhtoandathang() {
@@ -12,10 +13,9 @@ function Thanhtoandathang() {
       <header className="header-logo-orderpay container">
         <div className="orderpay-logo-title">
           <div className="orderpay-logo">
-            <Link to="/">
+          <Link to="/">
               <img
-                src="https://st-fe-v2.fado.vn/desktop/image/logo/fado_black_v2.svg"
-                alt=""
+                src={logo}
                 className="logo"
               />
             </Link>

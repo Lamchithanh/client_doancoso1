@@ -1,18 +1,18 @@
 import { Routes, Route, Link, NavLink } from "react-router-dom";
+import { StyledEngineProvider } from "@mui/material/styles";
+
 import "./Header.css";
-import logo from "../../../assets/imgs/logo2.png"
+import logo from "../../../assets/imgs/logo2.png";
+import { colors } from "@mui/material";
 function Header() {
   return (
-    <header style={{position:"relative", zIndex:"99"}}>
+    <header style={{ position: "relative", zIndex: "99" }}>
       <div className="position-sticky">
         <div className="line-short">Xin kính chào quý khách</div>
         <div className="Form-nav">
           <div className="Logo">
             <Link to="/">
-              <img
-                src={logo}
-                className="logo"
-              />
+              <img src={logo} className="logo" />
             </Link>
           </div>
           <div className="Search">
@@ -35,9 +35,75 @@ function Header() {
           </div>
           <div className="Form-signup">
             <div className="signup">
-              <NavLink to="/login">
-                <button>Đăng nhập</button>
-              </NavLink>
+              <div class="dropdown dropstart">
+                <button
+                  type="button"
+                  class="btn btn-dark dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  Tài khoản
+                </button>
+
+                <ul class="dropdown-menu">
+                  <li className="li-login">
+                    <NavLink to="/login">Đăng nhập</NavLink>
+                  </li>
+                  <li>
+                  <hr class="dropdown-divider" style={{margin:"0"}} />
+                  </li>
+                  <li className="li-singup">
+                    <NavLink to="/singup">Đăng ký</NavLink>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" style={{margin:"0"}} />
+                  </li>
+                  <ul className="title-name-login">
+                    <li
+                      className="edit-title-user"
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                      }}
+                    >
+                      {" "}
+                      <h6 style={{ color: "#303846", fontWeight: 600 }}>
+                        Chí Thành
+                      </h6>
+                      <span style={{ marginRight: "10px" }}>
+                        <i class="icofont-pen-alt-4"></i>
+                      </span>
+                    </li>
+                    <li>Nhận thêm Loyalty Points</li>
+                  </ul>
+                  <ul className="body-conten-TvTpay">
+                    <li>T&TPay</li>
+                    <li>Tài khoản trả trước > </li>
+                    <li>Tạo yêu cầu nạp | nạp bằng E-Gift card</li>
+                    <li style={{ margin: "0", padding: "0" }}>
+                      <Link to="/">
+                        <img src={logo} className="logo" />
+                      </Link>
+                    </li>
+                    <ul className="user-menu-list">
+                      <li><span><i class="icofont-paper"></i></span>Đơn hàng</li>
+                      <li><span><i class="icofont-heart"></i></span>Danh sách yêu thích</li>
+                      <li><span><i class="icofont-coins"></i></span>yêu cầu báo giá</li>
+                      <li><span><i class="icofont-barcode"></i></span>Mã giảm giá</li>
+                    </ul>
+                  </ul>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li className="user-logout">
+                    <NavLink class="dropdown-item" href="#">
+                      <span>
+                        <i class="icofont-logout"></i>
+                      </span>
+                      Thoát khỏi tài khoản
+                    </NavLink>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div className="bag">
               <li>

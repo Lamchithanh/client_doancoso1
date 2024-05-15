@@ -668,7 +668,8 @@ const HomePage = () => {
                 Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances
                 3614273961707
               </div>
-            </div>  <div className="card-product">
+            </div>{" "}
+            <div className="card-product">
               <div className="card-product-img">
                 <img
                   alt="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
@@ -681,7 +682,8 @@ const HomePage = () => {
                 Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances
                 3614273961707
               </div>
-            </div>  <div className="card-product">
+            </div>{" "}
+            <div className="card-product">
               <div className="card-product-img">
                 <img
                   alt="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
@@ -694,7 +696,8 @@ const HomePage = () => {
                 Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances
                 3614273961707
               </div>
-            </div>  <div className="card-product">
+            </div>{" "}
+            <div className="card-product">
               <div className="card-product-img">
                 <img
                   alt="Ladies Paradoxe Intense EDP Spray 3.0 oz Fragrances 3614273961707"
@@ -1009,7 +1012,7 @@ const HomePage = () => {
           </div>
         </nav>
         <section className="product-hangbag all-card-product">
-        <div className="card-product card-product-watch">
+          <div className="card-product card-product-watch">
             <div className="card-product-img">
               <span className="card-product-discout">-30%</span>
               <Link to="/CardPay">
@@ -1094,7 +1097,8 @@ const HomePage = () => {
                 </li>
               </ul>
             </div>
-          </div> <div className="card-product card-product-watch">
+          </div>{" "}
+          <div className="card-product card-product-watch">
             <div className="card-product-img">
               <span className="card-product-discout">-30%</span>
               <Link to="/CardPay">
@@ -1136,7 +1140,8 @@ const HomePage = () => {
                 </li>
               </ul>
             </div>
-          </div> <div className="card-product card-product-watch">
+          </div>{" "}
+          <div className="card-product card-product-watch">
             <div className="card-product-img">
               <span className="card-product-discout">-30%</span>
               <Link to="/CardPay">
@@ -1178,7 +1183,8 @@ const HomePage = () => {
                 </li>
               </ul>
             </div>
-          </div> <div className="card-product card-product-watch">
+          </div>{" "}
+          <div className="card-product card-product-watch">
             <div className="card-product-img">
               <span className="card-product-discout">-30%</span>
               <Link to="/CardPay">
@@ -3510,7 +3516,11 @@ const HomePage = () => {
       {/* go top */}
       <div className="bar-icon-top">
         <Link to="/">
-          <i className="icofont-rocket-alt-1" />
+          <button
+            style={{ display: "inline" }}
+            id="button"
+            className="show"
+          ><i class="icofont-hand-drawn-up"></i></button>
         </Link>
       </div>
     </div>

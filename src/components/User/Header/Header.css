@@ -3,221 +3,222 @@
 /* @import url(../HomePage/NavOption.css); */
 
 body {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 .position-sticky {
-  position: sticky;
-  font-style: 16px;
+    position: sticky;
+    font-style: 16px;
 }
 .Form-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  list-style-type: none;
-  font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
 }
 .line-short {
-  width: 100%;
-  height: auto;
-  background: #000;
-  color: #e5e5e5;
-  text-align: center;
-  padding: 8px;
-  font-weight: 600;
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 8px;
+    font-weight: 600;
 }
 .logo {
-  width: 150px;
-  height: 100px;
+    width: 150px;
+    height: 100px;
 }
 .Search {
-  display: block;
-  align-items: center;
-  justify-content: start;
+    display: block;
+    align-items: center;
+    justify-content: start;
 }
 .title-search {
-  display: flex;
-  font-size: 16px;
-  text-transform: capitalize;
-  font-weight: 500;
-  font-style: normal;
+    display: flex;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-style: normal;
 }
 .title-search li {
-  text-align: center;
-  padding: 10px;
-  cursor: pointer;
-  min-width: 80px;
-  transition: 0.33s ease;
-  font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    min-width: 80px;
+    transition: 0.33s ease;
+    font-size: 16px;
 }
 .title-search li:hover {
-  background-color: #000;
-  color: #e5e5e5;
-  padding: 10px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+    background-color: #000;
+    color: #e5e5e5;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 .taskbar-search {
-  display: flex;
-  align-items: center;
-  /* background-color: #e5e5e5; */
-  height: 70px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  width: 600px;
-  position: relative;
+    display: flex;
+    align-items: center;
+    /* background-color: #e5e5e5; */
+    height: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 600px;
+    position: relative;
 }
 .Search .title-search li:hover ~ .taskbar-search {
-  border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .input {
-  width: 95%;
+    width: 95%;
 }
 .search-icon {
-  cursor: pointer;
-  display: flex;
-  justify-content: end;
-  margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    margin: 10px 0;
 }
 .input input {
-  margin: 10px;
-  padding: 5px 15px;
-  width: 96%;
-  border: none;
-  border-radius: 20px;
-  background-color: dimgrey;
-  color: azure;
+    margin: 10px;
+    padding: 5px 15px;
+    width: 96%;
+    border: none;
+    border-radius: 20px;
+    background-color: dimgrey;
+    color: azure;
 }
 
 input::placeholder {
-  color: white;
+    color: white;
 }
 input:focus {
-  outline: none;
+    outline: none;
 }
 
 .Form-signup {
-  display: flex;
-  align-items: center;
-  color: black;
-  margin: 10px;
-  gap: 5px;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 10px;
+    gap: 5px;
 }
 /* bag */
 .bag {
-  padding: 5px;
-  border-radius: 10px;
-  border: 2px #000 solid;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px #000 solid;
 }
 .bag li i {
-  font-size: 20px;
+    font-size: 20px;
 }
 .signup > a,
 .bag a {
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
 }
 .dropdown-menu {
-  padding: 0 !important;
-  padding-bottom: 10px !important;
-  width: 300px;
+    padding: 0 !important;
+    padding-bottom: 10px !important;
+    width: 300px;
 }
 .dropdown-menu li.li-login,
 .dropdown-menu li.li-singup {
-  padding: 10px;
+    padding: 10px;
 }
 .li-login,
 .li-singup {
-transition: 0.33s ease;
+    transition: 0.33s ease;
 }
 .li-login a,
 .li-singup a {
-  font-size: 16px;
-  font-weight: 400;
-  color: #303846;
-  text-decoration: none;padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303846;
+    text-decoration: none;
+    padding: 10px;
 }
 .li-login:hover,
 .li-singup:hover {
-  background: #858282;
+    background: #858282;
 }
 .dropdown button {
-  margin: 0;
-  border: none;
-  border-radius: 10px;
-  color: #e5e5e5;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    color: #e5e5e5;
 }
 .body-conten-TvTpay {
-  padding: 0;
+    padding: 0;
 }
 .body-conten-TvTpay > li {
-  margin: 10px;
+    margin: 10px;
 }
 .body-conten-TvTpay > li:nth-child(4) {
-  text-align: center;
+    text-align: center;
 }
 .body-conten-TvTpay li img {
-  height: 100%;
+    height: 100%;
 }
 .title-name-login {
-  font-size: 16px;
-  padding: 10px;
-  margin-bottom: 10px ;
-  background: #f3f5f7;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #f3f5f7;
 }
 .edit-title-user span i {
-  padding: 5px;
-  border-radius: 100rem;
-  background: #303846;
-  color: #e5e5e5;
+    padding: 5px;
+    border-radius: 100rem;
+    background: #303846;
+    color: #e5e5e5;
 }
 .title-name-login li {
-  margin: 0;
+    margin: 0;
 }
 .title-name-login li:nth-child(2) {
-  margin-top: 20px;
-  font-size: 12px;
+    margin-top: 20px;
+    font-size: 12px;
 }
 .body-conten-TvTpay > li:nth-child(1),
 .body-conten-TvTpay > li:nth-child(2) {
-  font-weight: 600;
-  margin: 0;
-  padding: 0 10px;
-  font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 13px;
 }
 .body-conten-TvTpay > li:nth-child(3) {
-  font-size: 12px;
+    font-size: 12px;
 }
 .user-menu-list {
-  margin: 10px;
-  padding: 0;
+    margin: 10px;
+    padding: 0;
 }
 .user-menu-list li {
-  font-size: 16px;
-  padding: 10px 0;
-  transition: 0.33s ease;
-  border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 0;
+    transition: 0.33s ease;
+    border-radius: 4px;
 }
 .user-menu-list > li:hover {
-  background: #f3f5f7;
+    background: #f3f5f7;
 }
 .user-logout {
-  font-weight: 300;
+    font-weight: 300;
 }
 .user-logout a {
-  text-decoration: none;
-  color: #303846;
-  font-size: 16px;
-  font-weight: 400;
+    text-decoration: none;
+    color: #303846;
+    font-size: 16px;
+    font-weight: 400;
 }
 .user-logout span i {
-  margin: 0 5px 0 10px;
-  font-size: 16px;
+    margin: 0 5px 0 10px;
+    font-size: 16px;
 }
-.user-menu-list li span{
-  margin: 10px;
+.user-menu-list li span {
+    margin: 10px;
 }
-.user-menu-list li span i{
-  font-size: 18px;
+.user-menu-list li span i {
+    font-size: 18px;
 }

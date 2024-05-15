@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cart.css";
 import { Link } from "react-router-dom";
+import CheckBox from "./CheckBox";
 const Cart = () => {
   return (
     <div>
@@ -10,15 +11,7 @@ const Cart = () => {
           <ul className="checkbox-inland-import">
             <li>
               <div className="container">
-                <div className="container">
-                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
-                  <label htmlFor="cbx" className="check">
-                    <svg width="18px" height="18px" viewBox="0 0 18 18">
-                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
-                      <polyline points="1 9 7 14 15 4" />
-                    </svg>
-                  </label>
-                </div>
+              <input type="checkbox" name="" id="" />
               </div>
             </li>
             <li>
@@ -51,17 +44,11 @@ const Cart = () => {
         <section className="group-cart">
           <div className="cart-product">
             <ul className="cart-name">
-              <li className="container">
-                <div className="container">
-                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
-                  <label htmlFor="cbx" className="check">
-                    <svg width="18px" height="18px" viewBox="0 0 18 18">
-                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
-                      <polyline points="1 9 7 14 15 4" />
-                    </svg>
-                  </label>
-                </div>
-              </li>
+            <li>
+              <div className="container">
+              <input type="checkbox" name="" id="" />
+              </div>
+            </li>
               <li className="cart-product-img">
                 <a href="$">
                   <img
@@ -126,17 +113,11 @@ const Cart = () => {
           </div>
           <div className="cart-product">
             <ul className="cart-name">
-              <li className="container">
-                <div className="container">
-                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
-                  <label htmlFor="cbx" className="check">
-                    <svg width="18px" height="18px" viewBox="0 0 18 18">
-                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
-                      <polyline points="1 9 7 14 15 4" />
-                    </svg>
-                  </label>
-                </div>
-              </li>
+            <li>
+              <div className="container">
+              <input type="checkbox" name="" id="" />
+              </div>
+            </li>
               <li className="cart-product-img">
                 <a href="$">
                   <img
@@ -201,17 +182,11 @@ const Cart = () => {
           </div>{" "}
           <div className="cart-product">
             <ul className="cart-name">
-              <li className="container">
-                <div className="container">
-                  <input type="checkbox" id="cbx" style={{ display: "none" }} />
-                  <label htmlFor="cbx" className="check">
-                    <svg width="18px" height="18px" viewBox="0 0 18 18">
-                      <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z" />
-                      <polyline points="1 9 7 14 15 4" />
-                    </svg>
-                  </label>
-                </div>
-              </li>
+            <li>
+              <div className="container">
+              <input type="checkbox" name="" id="" />
+              </div>
+            </li>
               <li className="cart-product-img">
                 <a href="$">
                   <img

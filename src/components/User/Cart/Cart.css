@@ -1,4 +1,8 @@
 /* checkbox-inland-import */
+.checkbox-inland-import > li:nth-child(1) div {
+  display: flex;
+  align-items: center;
+}
 /* Variation of work by @mrhyddenn for Radios */
 .check {
   cursor: pointer;

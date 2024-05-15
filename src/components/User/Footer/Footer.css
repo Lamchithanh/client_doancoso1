@@ -153,24 +153,28 @@ ul.columne li a {
   width: 125px;
 }
 
-.bar-icon-top a i{
+.bar-icon-top a button {
   display: grid;
   place-items: center;
-  margin-top: 12px;
-  font-size: 30px;
+  background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
   color: #1e1e1e;
+  border: none;padding: 5px;
 }
-.bar-icon-top a{
+.bar-icon-top a button i {
+  font-size: 20px;
+  color: #fff;
+}
+.bar-icon-top a {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: auto;
+  height: auto;
   background: #fff;
-  border-radius: 100rem;
-  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
   z-index: 79;
-  right: 0;bottom: 0;
+  right: 0;
+  bottom: 0;
   margin-bottom: 200px;
   margin-right: 50px;
   text-decoration: none;
+  overflow: hidden;
 }
-

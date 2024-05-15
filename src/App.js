@@ -18,9 +18,9 @@ import Codesales from "./components/User/HomePage/Codesales";
 import Singup from "./components/User/Login/Singup";
 import Thanhtoandathang from "./components/User/Cart/Thanhtoandathang";
 function App() {
-  return (
-    <div className="app-container">
-      {/* <ToastContainer
+    return (
+        <div className="app-container">
+            {/* <ToastContainer
         position="top-right"
         autoClose={2000}
         hideProgressBar={false}
@@ -33,27 +33,30 @@ function App() {
         theme="light"
       />
       <ToastContainer /> */}
-      <Routes>
-        <Route path="/" element={<User />}>
-          <Route index element={<HomePage />} />
-          <Route path="/Dealhot" element={<Dealhot />} />
-          <Route path="/CardPay" element={<CardPay />} />
-          <Route path="/productworlk" element={<Productworlk />} />
-          <Route path="/Filterproduct" element={<Filterproduct />} />
-          <Route path="/Shareinfo" element={<Shareinfo />} />
-          <Route path="/Assistant" element={<Assistant />} />
-          <Route path="/Bachhoamy" element={<Bachhoamy />} />
-          <Route path="/Megavita" element={<Megavita />} />
-          <Route path="/Codesales" element={<Codesales />} />
-          <Route path="/Cart" element={<Cart />} />
-        </Route>
+            <Routes>
+                <Route path="/" element={<User />}>
+                    <Route index element={<HomePage />} />
+                    <Route path="/Dealhot" element={<Dealhot />} />
+                    <Route path="/CardPay" element={<CardPay />} />
+                    <Route path="/productworlk" element={<Productworlk />} />
+                    <Route path="/Filterproduct" element={<Filterproduct />} />
+                    <Route path="/Shareinfo" element={<Shareinfo />} />
+                    <Route path="/Assistant" element={<Assistant />} />
+                    <Route path="/Bachhoamy" element={<Bachhoamy />} />
+                    <Route path="/Megavita" element={<Megavita />} />
+                    <Route path="/Codesales" element={<Codesales />} />
+                    <Route path="/Cart" element={<Cart />} />
+                </Route>
 
-        <Route path="/Thanhtoandathang" element={<Thanhtoandathang />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/Singup" element={<Singup />} />
-      </Routes>
-    </div>
-  );
+                <Route
+                    path="/Thanhtoandathang"
+                    element={<Thanhtoandathang />}
+                />
+                <Route path="/login" element={<Login />} />
+                <Route path="/Singup" element={<Singup />} />
+            </Routes>
+        </div>
+    );
 }
 
 export default App;

@@ -131,10 +131,13 @@ input:focus {
 .li-singup {
     transition: 0.33s ease;
 }
-.li-login a,
-.li-singup a {
+.dropdown-menu a {
+    text-decoration: none;
+}
+.li-login,
+.li-singup {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #303846;
     text-decoration: none;
     padding: 10px;

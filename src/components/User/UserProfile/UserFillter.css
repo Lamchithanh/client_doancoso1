@@ -1,0 +1,81 @@
+.profile-content-right {
+    width: 82vw;
+    /* background-color: rgb(217, 216, 216); */
+    height: 830px;
+}
+.profile-main {
+    display: flex;
+}
+.profile-content-right-title {
+    width: 900px;
+    display: inline-block;
+    border-bottom: rgb(216, 214, 214) solid 2px;
+    margin-left: 70px;
+}
+.title-fill-name {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 450;
+}
+.title-fill {
+    margin-left: 330px;
+}
+.checkbox {
+    display: flex;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.checkbox-name {
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+.gender {
+    height: 40px;
+}
+.title {
+    color: #505f77;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    font-weight: 600;
+}
+.profile-content-right-main {
+    margin-top: 40px;
+    justify-content: center;
+}
+.input-fill {
+    background: #fff;
+    border: 2px solid #5f718c;
+    color: #000;
+    height: 40px;
+    padding: 0 12px;
+    transition: 0.3s;
+    width: 420px;
+    height: 34px;
+}
+.title-fill-submit {
+    margin-top: 10px;
+    margin-left: 320px;
+}
+.confirm {
+    margin-left: 100px;
+    line-height: 30px;
+    border-radius: 60px;
+    width: 95px;
+    outline: none;
+    background-color: rgb(238, 238, 238);
+    font-weight: 550;
+}
+.change {
+    margin-left: 100px;
+    line-height: 30px;
+    width: 95px;
+    border-radius: 60px;
+    outline: none;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 550;
+}

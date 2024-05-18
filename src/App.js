@@ -17,7 +17,7 @@ import Megavita from "./components/User/HomePage/Megavita";
 import Codesales from "./components/User/HomePage/Codesales";
 import Singup from "./components/User/Login/Singup";
 import Thanhtoandathang from "./components/User/Cart/Thanhtoandathang";
-import Editinfouser from "./components/User/Login/Editinfouser";
+import UserFillter from "./components/User/UserProfile/UserFillter";
 function App() {
     return (
         <div className="app-container">
@@ -47,7 +47,7 @@ function App() {
                     <Route path="/Megavita" element={<Megavita />} />
                     <Route path="/Codesales" element={<Codesales />} />
                     <Route path="/Cart" element={<Cart />} />
-                    <Route path="/Editinfouser" element={<Editinfouser />} />
+                    <Route path="/UserFillter" element={<UserFillter />} />
                 </Route>
 
                 <Route

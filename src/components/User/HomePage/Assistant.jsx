@@ -289,8 +289,16 @@ const Assistant = () => {
  
   {/* go top */}
   <div className="bar-icon-top">
-    <a href="."><i className="icofont-rocket-alt-1" /></a>
-  </div>
+                <a href="#">
+                    <button
+                        style={{ display: "inline" }}
+                        id="button"
+                        className="show"
+                    >
+                        <i class="icofont-hand-drawn-up"></i>
+                    </button>
+                </a>
+            </div>
 </div>
 
     );

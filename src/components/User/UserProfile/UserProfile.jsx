@@ -32,12 +32,12 @@
                         
 //                         <div className="content-container">
 //                             <div className="content-title">
-//                             <FontAwesomeIcon icon={ faWallet} style={{ fontSize: '18px'    }}/>
-//                             <span className="content-name">Tài khoản trả cước</span>
+//                                 <FontAwesomeIcon icon={ faWallet} style={{ fontSize: '18px'}}/>
+//                                 <span className="content-name">Tài khoản trả cước</span>
 //                             </div >
                         
-//                         <p className="name-display">Quản lý yêu cầu</p>
-//                         <p className="name-display">Lịch sử giao dịch</p>
+//                             <p className="name-display">Quản lý yêu cầu</p>
+//                             <p className="name-display">Lịch sử giao dịch</p>
 //                         </div >
                       
                         

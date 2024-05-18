@@ -84,7 +84,7 @@ function Header() {
                                             >
                                                 Chí Thành
                                             </h6>
-                                            <Link to="/Editinfouser">
+                                            <Link to="/UserFillter">
                                             <span
                                                 style={{ marginRight: "10px" }}
                                             >
@@ -95,7 +95,7 @@ function Header() {
                                     </ul>
                                     <ul className="body-conten-TvTpay">
                                         <li>T&TPay</li>
-                                        <li>Tài khoản trả trước > </li>
+                                        <li>Tài khoản trả trước  </li>
                                         <li>
                                             Tạo yêu cầu nạp | nạp bằng E-Gift
                                             card

@@ -186,6 +186,7 @@ function Thanhtoandathang() {
                     </div>
                   </div>
                 </div>
+              
               </form>
               <h6 className="lable-section-orderpay">
                 Điền thông tin đặt hàng

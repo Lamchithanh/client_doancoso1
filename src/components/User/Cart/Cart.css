@@ -95,10 +95,11 @@ a {
     vertical-align: middle;
     border-style: none;
 }
-.cart-name-product a {
+.cart-name-product  a {
     font-size: 18px;
     font-weight: 600;
     color: #333;
+    text-decoration: none;
 }
 .content-product-cart {
     color: #767779;

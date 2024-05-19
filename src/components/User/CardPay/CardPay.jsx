@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./CardPay.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const CardPay = () => {
+    const notify = () => toast("Thêm vào giỏ hàng thành công!");
+    
+    const [quantity, setQuantity] = useState(1);
+
+    const increaseQuantity = () => {
+        setQuantity(quantity + 1);
+    };
+
+    const decreaseQuantity = () => {
+        if (quantity > 1) {
+            setQuantity(quantity - 1);
+        }
+    };
     return (
         <div>
             <main className="main-cardpay container">
@@ -154,40 +169,28 @@ const CardPay = () => {
                                 </div>
                                 {/* quantity-input */}
                                 <div className="quantity-input-button">
-                                    <div class="quantity-input">
+                                    <div className="quantity">
                                         <button
-                                            onClick={() => {
-                                                const quantity =
-                                                    document.querySelector(
-                                                        ".quantity-input input"
-                                                    );
-                                                if (quantity.value <= 1) return;
-                                                document.querySelector(
-                                                    ".quantity-input input"
-                                                ).value--;
-                                            }}
+                                            className="quantity__button"
+                                            onClick={decreaseQuantity}
                                         >
                                             -
                                         </button>
-                                        <input type="text" value="1" />
+                                        <span className="quantity__number">
+                                            {quantity}
+                                        </span>
                                         <button
-                                            onClick={() => {
-                                                document.querySelector(
-                                                    ".quantity-input input"
-                                                ).value++;
-                                            }}
+                                            className="quantity__button"
+                                            onClick={increaseQuantity}
                                         >
                                             +
                                         </button>
                                     </div>
                                     <div className="btn-add-product">
-                                        <button
-                                            name
-                                            id
-                                            className="btn btn-primary"
-                                        >
+                                        <button onClick={notify}>
                                             Thêm vào giỏ hàng
                                         </button>
+                                        <ToastContainer />
                                     </div>
                                 </div>
                                 <div className="product-detail-shipping">

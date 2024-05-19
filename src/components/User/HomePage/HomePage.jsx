@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./NavOption.css";
 import "./Cardsales.css";
 import { Link } from "react-router-dom";
+import { FaArrowUp } from "react-icons/fa";
+
 const HomePage = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    // Kiểm tra vị trí scroll để hiển thị hoặc ẩn nút "Back to Top"
+    const toggleVisibility = () => {
+        if (window.pageYOffset > 500) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", toggleVisibility);
+        return () => {
+            window.removeEventListener("scroll", toggleVisibility);
+        };
+    }, []);
     return (
         <div>
             <div
@@ -3679,18 +3705,15 @@ const HomePage = () => {
 
             {/* go top */}
             <div className="bar-icon-top">
-                <a href="#">
-                    <button
-                        style={{ display: "inline" }}
-                        id="button"
-                        className="show"
-                    >
-                        <i class="icofont-hand-drawn-up"></i>
-                    </button>
-                </a>
+                {isVisible && (
+                    <div className="back-to-top" onClick={scrollToTop}>
+                        <FaArrowUp />
+                    </div>
+                )}
             </div>
         </div>
     );
+    
 };
 
-export default HomePage;
+export default  HomePage;

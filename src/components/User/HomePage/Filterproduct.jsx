@@ -698,17 +698,7 @@ const Filterproduct = () => {
             </section>
 
             {/* go top */}
-            <div className="bar-icon-top">
-                <a href="#">
-                    <button
-                        style={{ display: "inline" }}
-                        id="button"
-                        className="show"
-                    >
-                        <i class="icofont-hand-drawn-up"></i>
-                    </button>
-                </a>
-            </div>
+            
         </div>
     );
 };

@@ -152,29 +152,27 @@ ul.columne li a {
   height: auto;
   width: 125px;
 }
-
-.bar-icon-top a button {
-  display: grid;
-  place-items: center;
-  background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
-  color: #1e1e1e;
-  border: none;padding: 5px;
-}
-.bar-icon-top a button i {
-  font-size: 20px;
-  color: #fff;
-}
-.bar-icon-top a {
+/* back to top */
+.back-to-top {
   position: fixed;
-  width: auto;
-  height: auto;
-  background: #fff;
-  border-radius: 8px;
-  z-index: 79;
-  right: 0;
-  bottom: 0;
-  margin-bottom: 200px;
-  margin-right: 50px;
-  text-decoration: none;
-  overflow: hidden;
+  bottom: 100px;
+  right: 20px;
+  background: linear-gradient(to right, #52a0fd 0%, #00e2fa 80%, #00e2fa 100%);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-to-top:hover {
+  background: linear-gradient(to right, #00e2fa 0%, #52a0fd 80%, #52a0fd 100%);
+}
+
+.back-to-top svg {
+  color: white;
+  font-size: 24px;
 }

@@ -335,11 +335,7 @@ const Dealhot = () => {
       </main>
 
       {/* go top */}
-      <div className="bar-icon-top">
-        <a href="$">
-          <i className="icofont-rocket-alt-1" />
-        </a>
-      </div>
+      
     </div>
   );
 };

@@ -2,7 +2,7 @@ import "./App.css";
 import HomePage from "./components/User/HomePage/HomePage";
 import { Route, Routes } from "react-router-dom";
 // import { ToastContainer } from "react-toastify";
-import Header from "./components/User/Header/Header";
+// import Header from "./components/User/Header/Header";
 import User from "./components/User/User";
 import Login from "./components/User/Login/Login";
 import Cart from "./components/User/Cart/Cart";
@@ -21,20 +21,9 @@ import UserFillter from "./components/User/UserProfile/UserFillter";
 function App() {
     return (
         <div className="app-container">
-            {/* <ToastContainer
-        position="top-right"
-        autoClose={2000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-      />
-      <ToastContainer /> */}
+          
             <Routes>
+          
                 <Route path="/" element={<User />}>
                     <Route index element={<HomePage />} />
                     <Route path="/Dealhot" element={<Dealhot />} />

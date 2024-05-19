@@ -4,9 +4,6 @@
     align-items: center;
 }
 /* Variation of work by @mrhyddenn for Radios */
-.container {
-    cursor: pointer;
-}
 
 .container > input {
     display: none;

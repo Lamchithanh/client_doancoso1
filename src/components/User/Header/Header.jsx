@@ -1,12 +1,22 @@
 import { Routes, Route, Link, NavLink } from "react-router-dom";
-import { StyledEngineProvider } from "@mui/material/styles";
-
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "./Header.css";
 import logo from "../../../assets/imgs/logo2.png";
-import { colors } from "@mui/material";
 function Header() {
+    const ScrollToTop = () => {
+        const { pathname } = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [pathname]);
+
+        return null;
+    };
+
     return (
         <header style={{ position: "relative", zIndex: "99" }}>
+            <ScrollToTop />
             <div className="position-sticky">
                 <div className="line-short">Xin kính chào quý khách</div>
                 <div className="Form-nav">
@@ -85,17 +95,20 @@ function Header() {
                                                 Chí Thành
                                             </h6>
                                             <Link to="/UserFillter">
-                                            <span
-                                                style={{ marginRight: "10px" }}
-                                            >
-                                                <i class="icofont-pen-alt-4"></i>
-                                            </span></Link>
+                                                <span
+                                                    style={{
+                                                        marginRight: "10px",
+                                                    }}
+                                                >
+                                                    <i class="icofont-pen-alt-4"></i>
+                                                </span>
+                                            </Link>
                                         </li>
                                         <li>Nhận thêm Loyalty Points</li>
                                     </ul>
                                     <ul className="body-conten-TvTpay">
                                         <li>T&TPay</li>
-                                        <li>Tài khoản trả trước  </li>
+                                        <li>Tài khoản trả trước </li>
                                         <li>
                                             Tạo yêu cầu nạp | nạp bằng E-Gift
                                             card
@@ -156,8 +169,9 @@ function Header() {
                         </div>
                         <div className="bag">
                             <li>
-                                <i class="icofont-cart"></i>{" "}
-                                <NavLink to="/Cart">Giỏ hàng</NavLink>
+                                <NavLink to="/Cart">
+                                    <i class="icofont-cart"></i> Giỏ hàng
+                                </NavLink>
                             </li>
                         </div>
                     </div>

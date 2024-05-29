@@ -3,17 +3,17 @@ import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 
 export default function User() {
-  return (
-    <>
-      <div className="header-container">
-        <Header />
-      </div>
-      <div className="main-container">
-        <Outlet />
-      </div>
-      <div className="footer">
-        <Footer />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <div className="header-container">
+                <Header />
+            </div>
+            <div className="main-container">
+                <Outlet />
+            </div>
+            <div className="footer">
+                <Footer />
+            </div>
+        </>
+    );
 }

@@ -18,12 +18,13 @@ import Codesales from "./components/User/HomePage/Codesales";
 import Singup from "./components/User/Login/Singup";
 import Thanhtoandathang from "./components/User/Cart/Thanhtoandathang";
 import UserFillter from "./components/User/UserProfile/UserFillter";
+import Admin from "./components/Admin/Admin";
+
+
 function App() {
     return (
         <div className="app-container">
-          
             <Routes>
-          
                 <Route path="/" element={<User />}>
                     <Route index element={<HomePage />} />
                     <Route path="/Dealhot" element={<Dealhot />} />
@@ -45,6 +46,8 @@ function App() {
                 />
                 <Route path="/login" element={<Login />} />
                 <Route path="/Singup" element={<Singup />} />
+                <Route path="/Admin/*" element={<Admin />} />
+                
             </Routes>
         </div>
     );

@@ -1,3 +1,9 @@
+/* vừa thêm vào */
+/*  */
+ul.nav-Userfillter > li:hover {
+    background: none;
+}
+/*  */
 .profile-content-right {
     width: 82vw;
     /* background-color: rgb(217, 216, 216); */
@@ -122,14 +128,19 @@
     height: 300px;
 }
 /* btn-UserFillter */
-.btn-UserFillter button {
+.btn-UserFillter > button {
     width: 200px;
     background: none;
-    border: none;
+    border-radius: 8px;
     /* border-bottom: 1px #5f718c !important ; */
     color: #505f77;
     font-size: 20px;
     margin: 10px;
+    padding: 10px;
+}
+.btn-UserFillter > button:hover {
+    background: #000;
+    color: #f1f1f1;
 }
 .content-UserFillter > h2 {
     margin-left: 20%;
@@ -165,7 +176,6 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f1f1f1;
-    
 }
 
 .radio-group {
@@ -236,13 +246,16 @@ body {
 }
 /* btn-xac-nhan-reset */
 .btn-xac-nhan-reset > button {
+    width: 100px;
     border: 1px #000 solid;
-    border-radius: 20px;
+    border-radius: 8px;
     transition: 0.33s ease;
+    padding: 10px;
+    margin: 0 10px;
 }
-.btn-xac-nhan-reset button:hover {
-    background: #000;
-    color: #e6e6e6;
+.btn-xac-nhan-reset:nth-child(1) {
+    border: 1px solid #e21616;
+    background: none;
 }
 /*  menu */
 #menu1 {
@@ -258,4 +271,59 @@ body {
     display: grid;
     place-items: center;
     padding: 0 !important;
+}
+/* san pham yeu thich */
+.title-sp-yeu-thich {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    
+  
+}
+.nav-sp-yeu-thich {
+    margin-left: 20px;
+}
+#menu5 {
+    position: absolute;
+    top: 55%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.san-pham-yeu-thich {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+.item-img-yeu-thich {
+    width: 100px;
+    overflow: hidden;
+    height: 120px;
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.item-img-yeu-thich img {
+    object-fit: cover;
+    width: 100px;
+}
+.item-name-yeu-thich {
+    width: 500px;
+    overflow: hidden;
+}
+.san-pham-yeu-thich > button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #5f718c;
+    color: #e6e6e6;
+    font-weight: 400;
+    border: none;
+}
+.san-pham-yeu-thich > button:hover {
+    box-shadow: #e21616 0 0 5px 2px;
+    background: #e21616;
+}
+.san-pham-yeu-thich {
+    border-top: #c1bebe 2px solid;
+    border-bottom: #c1bebe 2px solid;
 }

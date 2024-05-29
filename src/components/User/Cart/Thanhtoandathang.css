@@ -337,3 +337,29 @@ border: none;
 background: #141414;
 color: #f7fffd;
 }
+
+/* ten-user-va-dia-chi */
+.ten-user-va-dia-chi{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.head-titile-ttdh{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+.head-titile-ttdh > span > button{
+  background: #303846;
+  color: #c3cdde;
+  border-radius: 20px;
+  padding: 0 5px;
+
+}
+.thong-tin-dat-hang-da-co{
+  background: #f7fffd;
+  padding: 10px;
+  border-radius: 8px;
+}

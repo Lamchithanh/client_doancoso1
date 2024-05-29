@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from "react-router-dom";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
 // import { RootSiblingParent } from "react-native-root-siblings";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

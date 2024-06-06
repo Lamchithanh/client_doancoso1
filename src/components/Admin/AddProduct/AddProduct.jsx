@@ -1,211 +1,405 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./AddProduct.css";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const AddProduct = () => {
-    {
-        /* vừa thêm vào */
-    }
-
     const toastaddpro = () => toast("Thêm sản phẩm thành công!");
-    const toastedit = () => toast("Đã cập nhật sản phẩm thành công!");
     const toastdelete = () => toast("Sản phẩm đã được xóa thành công!");
+
+    // State to hold form data
+    const [formData, setFormData] = useState({
+        imageUrl: "",
+        id: "",
+        name: "",
+        madeIn: "",
+        topLevelCategory: "",
+        secondLevelCategory: "",
+        thirdLevelCategory: "",
+        brand: "",
+        colors: [
+            { color: "", size: "", stock: "" },
+            { color: "", size: "", stock: "" },
+            { color: "", size: "", stock: "" },
+        ],
+        quantity: "",
+        price: "",
+        discount: "",
+        totalPrice: "", // mơi thêm vào
+        description: "",
+    });
+
+    // Calculate total price when price or discount changes
+    useEffect(() => {
+        if (formData.price && formData.discount) {
+            const price = parseFloat(formData.price.replace(/,/g, ""));
+            const discount = parseFloat(formData.discount);
+            if (!isNaN(price) && !isNaN(discount)) {
+                const discountedPrice = price - (price * discount) / 100;
+                setFormData((prevData) => ({
+                    ...prevData,
+                    totalPrice: formatInputValue(discountedPrice.toFixed()),
+                }));
+            }
+        } else {
+            setFormData((prevData) => ({
+                ...prevData,
+                totalPrice: "",
+            }));
+        }
+    }, [formData.price, formData.discount]);
+
+    // Format input values with commas after every three digits
+    const formatInputValue = (value) => {
+        return value.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    };
+
+    // Handle input changes
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData((prevData) => ({
+            ...prevData,
+            [name]: value,
+        }));
+    };
+    const handleRemoveColor = () => {
+        // Logic for removing a color option
+    };
+
+    const handleRemoveSize = () => {
+        // Logic for removing a size option
+    };
+
+    const handleAddSize = () => {
+        // Logic for adding a size option
+    };
+
     return (
         <div className="Addproduct-main">
-            <div style={{ display: "flex", alignItems: "center", gap: "20" }}>
+            <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
                 <img
                     width="96"
                     height="96"
                     src="https://img.icons8.com/nolan/96/sell.png"
                     alt="sell"
                 />
-
-                <h2>sản phẩm</h2>
+                <h2>Sản phẩm</h2>
             </div>
             <hr />
             <div className="form-AddProduct">
                 <button
                     type="button"
-                    class="btn btn-primary btn-Addproduct"
+                    className="btn btn-primary btn-Addproduct"
                     data-bs-toggle="collapse"
                     data-bs-target="#Addproduct"
                 >
                     Thêm Sản phẩm
                 </button>
-                <div id="Addproduct" class="collapse">
-                    <div class="container " id="container-Addproduct">
+                <div id="Addproduct" className="collapse">
+                    <div className="container" id="container-Addproduct">
                         <form action="" className="From-addproduct">
-                            <label for="fname">Image</label>
+                            <label htmlFor="imageUrl">Image</label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
+                                id="imageUrl"
+                                name="imageUrl"
+                                placeholder="Your image URL.."
+                                value={formData.imageUrl}
+                                onChange={handleInputChange}
                             />
-                            <label for="fname"> ID</label>
+                            <label htmlFor="id">ID</label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
+                                id="id"
+                                name="id"
+                                placeholder="Your product ID.."
+                                value={formData.id}
+                                onChange={handleInputChange}
                             />
-                            <label for="fname">Name</label>
+                            <label htmlFor="name">Name</label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
+                                id="name"
+                                name="name"
+                                placeholder="Your product name.."
+                                value={formData.name}
+                                onChange={handleInputChange}
                             />
-                            <label for="fname">Made in</label>
+                            <label htmlFor="madeIn">Made in</label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
-                            />{" "}
-                            {/* phan sua moi */}
-                            <label for="fname">Top lavel Category</label>
+                                id="madeIn"
+                                name="madeIn"
+                                placeholder="Country of origin.."
+                                value={formData.madeIn}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="topLevelCategory">
+                                Top Level Category
+                            </label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
-                            />{" "}
-                            <label for="fname">Second</label>
+                                id="topLevelCategory"
+                                name="topLevelCategory"
+                                placeholder="Top level category.."
+                                value={formData.topLevelCategory}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="secondLevelCategory">
+                                Second Level Category
+                            </label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
-                            />{" "}
-                            <label for="fname">Thir</label>
+                                id="secondLevelCategory"
+                                name="secondLevelCategory"
+                                placeholder="Second level category.."
+                                value={formData.secondLevelCategory}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="thirdLevelCategory">
+                                Third Level Category
+                            </label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
-                            />{" "}
-                            <label for="fname">Brand</label>
+                                id="thirdLevelCategory"
+                                name="thirdLevelCategory"
+                                placeholder="Third level category.."
+                                value={formData.thirdLevelCategory}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="brand">Brand</label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your name.."
-                            />{" "}
-                            <label for="fname">Option color one</label>
+                                id="brand"
+                                name="brand"
+                                placeholder="Brand.."
+                                value={formData.brand}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="color1">Option Color One</label>
                             <div className="List-item-color">
-                                <label for="fname">Color</label>
+                                <label htmlFor="color1">Color</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Size</label>
+                                    id="color1"
+                                    name="colors[0].color"
+                                    placeholder="Color.."
+                                    value={formData.colors[0].color}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[0].color = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
+                                <label htmlFor="size1">Size</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Stock</label>
+                                    id="size1"
+                                    name="colors[0].size"
+                                    placeholder="Size.."
+                                    value={formData.colors[0].size}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[0].size = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
+                                <label htmlFor="stock1">Stock</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
+                                    id="stock1"
+                                    name="colors[0].stock"
+                                    placeholder="Stock.."
+                                    value={formData.colors[0].stock}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[0].stock = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
                             </div>
-                            <label for="fname">Option color two</label>
+                            <label htmlFor="color2">Option Color Two</label>
                             <div className="List-item-color">
-                                <label for="fname">Color</label>
+                                <label htmlFor="color2">Color</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Size</label>
+                                    id="color2"
+                                    name="colors[1].color"
+                                    placeholder="Color.."
+                                    value={formData.colors[1].color}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[1].color = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
+                                <label htmlFor="size2">Size</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Stock</label>
+                                    id="size2"
+                                    name="colors[1].size"
+                                    placeholder="Size.."
+                                    value={formData.colors[1].size}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[1].size = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
+                                <label htmlFor="stock2">Stock</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
+                                    id="stock2"
+                                    name="colors[1].stock"
+                                    placeholder="Stock.."
+                                    value={formData.colors[1].stock}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[1].stock = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
                             </div>
-                            <label for="fname">Option color Thir</label>
+                            <label htmlFor="color3">Option Color Three</label>
                             <div className="List-item-color">
-                                <label for="fname">Color</label>
+                                <label htmlFor="color3">Color</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Size</label>
+                                    id="color3"
+                                    name="colors[2].color"
+                                    placeholder="Color.."
+                                    value={formData.colors[2].color}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[2].color = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
+                                <label htmlFor="size3">Size</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Stock</label>
+                                    id="size3"
+                                    name="colors[2].size"
+                                    placeholder="Size.."
+                                    value={formData.colors[2].size}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[2].size = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
+                                <label htmlFor="stock3">Stock</label>
                                 <input
                                     type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
+                                    id="stock3"
+                                    name="colors[2].stock"
+                                    placeholder="Stock.."
+                                    value={formData.colors[2].stock}
+                                    onChange={(e) => {
+                                        const newColors = [...formData.colors];
+                                        newColors[2].stock = e.target.value;
+                                        setFormData((prevData) => ({
+                                            ...prevData,
+                                            colors: newColors,
+                                        }));
+                                    }}
+                                />
                             </div>
-                            <label for="fname">Quantity</label>
+                            {/* mới thêm vào */}
+                            <div className="button-group">
+                                <button
+                                    type="button"
+                                    onClick={handleRemoveColor}
+                                >
+                                    Remove Color
+                                </button>
+                                <button
+                                    className="btn-removesize"
+                                    type="button"
+                                    onClick={handleRemoveSize}
+                                >
+                                    Remove Size
+                                </button>
+                                <button type="button" onClick={handleAddSize}>
+                                    Add Size
+                                </button>
+                                <button type="button" >
+                                    Add Color
+                                </button>
+                            </div>
+
+                            <label htmlFor="quantity">Quantity</label>
                             <input
                                 type="text"
-                                id="fname"
-                                name="firstname"
-                                placeholder="Your product.."
-                            />{" "}
-                            <label for="fname">List Price</label>
-                            <div className="list-value-price">
-                                <label for="fname">Price</label>
-                                <input
-                                    type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Discount(%)</label>
-                                <input
-                                    type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                                <label for="fname">Total price</label>
-                                <input
-                                    type="text"
-                                    id="fname"
-                                    name="firstname"
-                                    placeholder="Your name.."
-                                />{" "}
-                            </div>
-                            <label for="fname">Description</label>
+                                id="quantity"
+                                name="quantity"
+                                placeholder="Your product quantity.."
+                                value={formData.quantity}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="price">Price</label>
+                            <input
+                                type="text"
+                                id="price"
+                                name="price"
+                                placeholder="Product price.."
+                                value={formData.price}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="discount">Discount (%)</label>
+                            <input
+                                type="text"
+                                id="discount"
+                                name="discount"
+                                placeholder="Discount percentage.."
+                                value={formData.discount}
+                                onChange={handleInputChange}
+                            />
+                            <label htmlFor="totalPrice">Total Price</label>
+                            <input
+                                type="text"
+                                id="totalPrice"
+                                name="totalPrice"
+                                placeholder="Total price.."
+                                value={formData.totalPrice}
+                                readOnly
+                            />
+                            <label htmlFor="description">Description</label>
                             <textarea
-                                id="subject"
-                                name="subject"
+                                id="description"
+                                name="description"
                                 placeholder="Write something.."
                                 style={{ height: "100px" }}
+                                value={formData.description}
+                                onChange={handleInputChange}
                             ></textarea>
-                            {/* vừa thêm vào */}
                             <button
                                 className="btn-xac-nhan-them"
+                                type="button"
                                 onClick={toastaddpro}
                             >
                                 Thêm
@@ -216,10 +410,10 @@ const AddProduct = () => {
                 </div>
             </div>
             <div className="Admin-table-Product">
-                <div class="container mt-3">
+                <div className="container mt-3">
                     <h2>Thông tin sản phẩm</h2>
                     <p>Danh sách các sản phẩm hiện đang có:</p>
-                    <table class="table-addproduct ">
+                    <table className="table-addproduct ">
                         <thead>
                             <tr>
                                 <th>Image</th>
@@ -229,7 +423,7 @@ const AddProduct = () => {
                                 <th>Trademark</th>
                                 <th>Category</th>
                                 <th>Price</th>
-                                <th>Discount(%)</th>
+                                <th>Discount (%)</th>
                                 <th>Quantity</th>
                                 <th>Order</th>
                             </tr>
@@ -254,15 +448,13 @@ const AddProduct = () => {
                                 <td>20</td>
                                 <td>1000</td>
                                 <td>
-                                    <button class=" btn-outline-edit">
+                                    <button className="btn-outline-edit">
                                         Edit
                                         <ToastContainer />
                                     </button>
-                                    {/* vừa thêm vào */}
-
                                     <button
                                         onClick={toastdelete}
-                                        class=" btn-outline-delete"
+                                        className="btn-outline-delete"
                                     >
                                         Delete
                                     </button>

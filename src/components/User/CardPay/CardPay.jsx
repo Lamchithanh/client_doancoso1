@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const CardPay = () => {
     const notify = () => toast("Thêm vào giỏ hàng thành công!");
-    
+
     const [quantity, setQuantity] = useState(1);
 
     const increaseQuantity = () => {
@@ -187,10 +187,50 @@ const CardPay = () => {
                                         </button>
                                     </div>
                                     <div className="btn-add-product">
-                                        <button onClick={notify}>
-                                            Thêm vào giỏ hàng
-                                        </button>
-                                        <ToastContainer />
+                                     
+                                            <button
+                                                type="button"
+                                                class="btn btn-primary"
+                                                data-bs-toggle="modal"
+                                                data-bs-target="#myModal"
+                                            >
+                                               Thêm vào giỏ
+                                            </button>
+                                        
+                                        {/* <!-- The Modal --> */}
+                                        <div class="modal" id="myModal">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    {/* <!-- Modal Header --> */}
+                                                    <div class="modal-header">
+                                                        <h4 class="modal-title">
+                                                           Thông báo
+                                                        </h4>
+                                                        <button
+                                                            type="button"
+                                                            class="btn-close"
+                                                            data-bs-dismiss="modal"
+                                                        ></button>
+                                                    </div>
+
+                                                    {/* <!-- Modal body --> */}
+                                                    <div class="modal-body">
+                                                       Bạn phải đăng nhập thì mới thêm sản phẩm vào giỏ được!
+                                                    </div>
+
+                                                    {/* <!-- Modal footer --> */}
+                                                    <div class="modal-footer">
+                                                        <button
+                                                            type="button"
+                                                            class="btn btn-danger"
+                                                            data-bs-dismiss="modal"
+                                                        >
+                                                            Close
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="product-detail-shipping">

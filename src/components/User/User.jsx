@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-
+import "./User.css";
 export default function User() {
     return (
         <>

@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Cart.css";
 import { Link } from "react-router-dom";
 // import "./checkbox";
 const Cart = () => {
+    useEffect(() => {
+        // Cuộn lên đầu trang khi component được mount
+        window.scrollTo(0, 0);
+      }, []);
+    
     return (
         <div>
             {/*  */}
